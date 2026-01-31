@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f8fafc"/>
+  <rect x="20" y="20" width="360" height="260" fill="#fff" stroke="#e2e8f0" stroke-width="2" rx="8"/>
+
+  <!-- Collar outline -->
+  <path d="M60 120 Q200 80 340 120" fill="none" stroke="#64748b" stroke-width="3"/>
+  <path d="M60 140 Q200 100 340 140" fill="none" stroke="#64748b" stroke-width="3"/>
+  <line x1="60" y1="120" x2="60" y2="140" stroke="#64748b" stroke-width="3"/>
+  <line x1="340" y1="120" x2="340" y2="140" stroke="#64748b" stroke-width="3"/>
+
+  <!-- FIDLOCK buckle detail -->
+  <rect x="180" y="105" width="40" height="30" fill="#2563eb" opacity="0.2" stroke="#2563eb" stroke-width="2" rx="4"/>
+  <circle cx="200" cy="120" r="6" fill="#2563eb"/>
+
+  <!-- D-ring -->
+  <ellipse cx="100" cy="130" rx="12" ry="8" fill="none" stroke="#2563eb" stroke-width="2"/>
+
+  <!-- Title -->
+  <text x="200" y="50" font-family="system-ui" font-size="14" font-weight="600" fill="#1e293b" text-anchor="middle">FIDLOCK DOG COLLAR TECH PACK</text>
+
+  <!-- Size chart hint -->
+  <rect x="50" y="180" width="140" height="80" fill="#f1f5f9" stroke="#e2e8f0" rx="4"/>
+  <text x="120" y="200" font-family="monospace" font-size="9" fill="#64748b" text-anchor="middle">SIZE CHART</text>
+  <text x="70" y="220" font-family="monospace" font-size="8" fill="#94a3b8">S: 25-35cm</text>
+  <text x="70" y="235" font-family="monospace" font-size="8" fill="#94a3b8">M: 35-45cm</text>
+  <text x="70" y="250" font-family="monospace" font-size="8" fill="#94a3b8">L: 45-55cm</text>
+
+  <!-- Exploded view hint -->
+  <rect x="210" y="180" width="140" height="80" fill="#f1f5f9" stroke="#e2e8f0" rx="4"/>
+  <text x="280" y="200" font-family="monospace" font-size="9" fill="#64748b" text-anchor="middle">EXPLODED VIEW</text>
+  <rect x="250" y="215" width="20" height="10" fill="none" stroke="#2563eb" stroke-width="1"/>
+  <rect x="275" y="215" width="20" height="10" fill="none" stroke="#2563eb" stroke-width="1"/>
+  <rect x="300" y="215" width="20" height="10" fill="none" stroke="#2563eb" stroke-width="1"/>
+  <line x1="260" y1="235" x2="310" y2="235" stroke="#94a3b8" stroke-dasharray="2"/>
+</svg>
