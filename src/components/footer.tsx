@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Logo } from "@/components/logo";
 
 const productLinks = [
   { href: "/builder", label: "Strap Builder" },
@@ -27,9 +28,7 @@ export function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="lg:col-span-1">
-            <Link href="/" className="inline-block">
-              <span className="text-xl font-bold text-primary">ReadyStrapGo</span>
-            </Link>
+            <Logo />
             <p className="mt-3 text-sm text-muted-foreground max-w-xs">
               Custom straps manufactured globally. From prototype to production in weeks, not months.
             </p>
