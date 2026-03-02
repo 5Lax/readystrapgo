@@ -31,9 +31,9 @@ export async function GET(
     .single();
 
   if (sampleError || !sample) {
-    // Redirect to a "not found" page instead of showing raw error
+    // Redirect to a "sample unknown" page instead of showing raw error
     const origin = new URL(request.url).origin;
-    return NextResponse.redirect(`${origin}/scan/not-found`);
+    return NextResponse.redirect(`${origin}/scan/unknown`);
   }
 
   // Extract scan metadata from the request
