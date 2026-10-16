@@ -24,6 +24,68 @@ interface Props {
 type ViewMode = "external" | "internal";
 type InternalTab = "inspect" | "compare" | "inventory" | "history";
 
+const statusColor: Record<string, string> = {
+  Active: "bg-green-100 text-green-800",
+  "In Review": "bg-yellow-100 text-yellow-800",
+  Approved: "bg-blue-100 text-blue-800",
+  Rejected: "bg-red-100 text-red-800",
+  Archived: "bg-gray-100 text-gray-600",
+};
+
+// =========================================================================
+// Shared: Sample Info Card
+// =========================================================================
+function SampleCard({ s, compact }: { s: ScanSample; compact?: boolean }) {
+  return (
+    <div className={`bg-white rounded-xl shadow-sm border ${compact ? "p-4" : "p-6"}`}>
+      <div className="grid grid-cols-2 gap-3 text-sm">
+        {s.item_type && (
+          <div>
+            <div className="text-gray-500 text-xs">Type</div>
+            <div className="font-medium">{s.item_type}</div>
+          </div>
+        )}
+        {s.brand && (
+          <div>
+            <div className="text-gray-500 text-xs">Brand</div>
+            <div className="font-medium">{s.brand}</div>
+          </div>
+        )}
+        {s.status && (
+          <div>
+            <div className="text-gray-500 text-xs">Status</div>
+            <span
+              className={`inline-block px-2 py-0.5 rounded-full text-xs font-medium ${statusColor[s.status] || "bg-gray-100 text-gray-600"}`}
+            >
+              {s.status}
+            </span>
+          </div>
+        )}
+        {s.project_name && (
+          <div>
+            <div className="text-gray-500 text-xs">Project</div>
+            <div className="font-medium">{s.project_name}</div>
+          </div>
+        )}
+      </div>
+
+      {s.specs && Object.keys(s.specs).length > 0 && (
+        <div className="mt-3 pt-3 border-t">
+          <div className="text-xs font-medium text-gray-700 mb-1">Specs</div>
+          <div className="grid grid-cols-2 gap-1 text-xs">
+            {Object.entries(s.specs).map(([key, value]) => (
+              <div key={key}>
+                <span className="text-gray-500">{key}:</span>{" "}
+                <span className="font-medium">{value}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
 export default function ScanLandingClient({ sample, scanCount }: Props) {
   // Mode: external (vendor/customer) vs internal (A+ employee)
   const [mode, setMode] = useState<ViewMode>("external");
@@ -93,13 +155,6 @@ export default function ScanLandingClient({ sample, scanCount }: Props) {
     setCompareLoading(false);
   }
 
-  const statusColor: Record<string, string> = {
-    Active: "bg-green-100 text-green-800",
-    "In Review": "bg-yellow-100 text-yellow-800",
-    Approved: "bg-blue-100 text-blue-800",
-    Rejected: "bg-red-100 text-red-800",
-    Archived: "bg-gray-100 text-gray-600",
-  };
 
   const locations = [
     "Warehouse A",
@@ -110,60 +165,6 @@ export default function ScanLandingClient({ sample, scanCount }: Props) {
     "Shipped Out",
     "Office",
   ];
-
-  // =========================================================================
-  // Shared: Sample Info Card
-  // =========================================================================
-  function SampleCard({ s, compact }: { s: ScanSample; compact?: boolean }) {
-    return (
-      <div className={`bg-white rounded-xl shadow-sm border p-${compact ? "4" : "6"}`}>
-        <div className="grid grid-cols-2 gap-3 text-sm">
-          {s.item_type && (
-            <div>
-              <div className="text-gray-500 text-xs">Type</div>
-              <div className="font-medium">{s.item_type}</div>
-            </div>
-          )}
-          {s.brand && (
-            <div>
-              <div className="text-gray-500 text-xs">Brand</div>
-              <div className="font-medium">{s.brand}</div>
-            </div>
-          )}
-          {s.status && (
-            <div>
-              <div className="text-gray-500 text-xs">Status</div>
-              <span
-                className={`inline-block px-2 py-0.5 rounded-full text-xs font-medium ${statusColor[s.status] || "bg-gray-100 text-gray-600"}`}
-              >
-                {s.status}
-              </span>
-            </div>
-          )}
-          {s.project_name && (
-            <div>
-              <div className="text-gray-500 text-xs">Project</div>
-              <div className="font-medium">{s.project_name}</div>
-            </div>
-          )}
-        </div>
-
-        {s.specs && Object.keys(s.specs).length > 0 && (
-          <div className="mt-3 pt-3 border-t">
-            <div className="text-xs font-medium text-gray-700 mb-1">Specs</div>
-            <div className="grid grid-cols-2 gap-1 text-xs">
-              {Object.entries(s.specs).map(([key, value]) => (
-                <div key={key}>
-                  <span className="text-gray-500">{key}:</span>{" "}
-                  <span className="font-medium">{value}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
-      </div>
-    );
-  }
 
   // =========================================================================
   // INTERNAL VIEW

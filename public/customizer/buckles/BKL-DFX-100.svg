@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52mm" height="33.4mm" viewBox="0 0 52 33.4">
+  <title>Low-profile side release · 25.4 mm — schematic placeholder</title>
+  <rect id="body" x="2" y="1" width="48" height="31.4" rx="4" fill="#475569" stroke="#0f172a"/>
+  <path d="M 26.0 1 V 32.4" stroke="#94a3b8"/>
+  <rect id="button" x="22.0" y="12.7" width="8" height="8" rx="2" fill="#94a3b8"/>
+  <path d="M 6 5 V 28.4 M 46 5 V 28.4" stroke="#e2e8f0" stroke-width="2"/>
+  <circle id="anchor-left" cx="0" cy="16.7" r="0.1" fill="none"/>
+  <circle id="anchor-right" cx="52" cy="16.7" r="0.1" fill="none"/>
+</svg>
