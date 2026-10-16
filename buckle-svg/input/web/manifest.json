@@ -1,0 +1,196 @@
+{
+  "store": "https://www.aplusproducts.net",
+  "collection": "bags",
+  "kits": [
+    {
+      "name": "20 mm Sternum Strap Design Tech Pack with FIDLOCK V-BUCKLE 20 (Digital Download)",
+      "source_url": "https://www.aplusproducts.net/products/sternum-strap-design-tech-pack-with-fidlock-v-buckle-20",
+      "downloads": [],
+      "status": "No public direct asset link in product HTML; storefront offers checkout delivery. Local tech packs used when available."
+    },
+    {
+      "name": "FIDLOCK Buckle Kit — Vector Assets File (Digital Download)",
+      "source_url": "https://www.aplusproducts.net/products/fidlock-vector-assets-file",
+      "downloads": [],
+      "status": "No public direct asset link in product HTML; storefront offers checkout delivery. Local tech packs used when available."
+    },
+    {
+      "name": "A+ Elite Aluminum Sample Kit — Vector Assets Download (Digital Download)",
+      "source_url": "https://www.aplusproducts.net/products/a-elite-aluminum-sample-kit-digital-vector-assets-download",
+      "downloads": [],
+      "status": "No public direct asset link in product HTML; storefront offers checkout delivery. Local tech packs used when available."
+    },
+    {
+      "name": "FIDLOCK V-BUCKLE 25 Dog Collar Tech Pack — Vector Assets Download (Digital Download)",
+      "source_url": "https://www.aplusproducts.net/products/fidlock-v-buckle-25-dog-collar-tech-pack-digital-vector-assets-download",
+      "downloads": [],
+      "status": "No public direct asset link in product HTML; storefront offers checkout delivery. Local tech packs used when available."
+    },
+    {
+      "name": "15 mm Sternum Strap Design Tech Pack with FIDLOCK SNAP buckle 15 (Digital Download)",
+      "source_url": "https://www.aplusproducts.net/products/15-mm-sternum-strap-design-tech-pack-with-fidlock-snap-buckle-15",
+      "downloads": [],
+      "status": "No public direct asset link in product HTML; storefront offers checkout delivery. Local tech packs used when available."
+    },
+    {
+      "name": "40 mm Luggage Strap Design Tech Pack with FIDLOCK V-BUCKLE 40 (Digital Download)",
+      "source_url": "https://www.aplusproducts.net/products/digital-product-1",
+      "downloads": [],
+      "status": "No public direct asset link in product HTML; storefront offers checkout delivery. Local tech packs used when available."
+    },
+    {
+      "name": "15 mm Sternum Strap Lite with Suspender Clips Design Tech Pack with FIDLOCK SNAP buckle 15 (Digital Download)",
+      "source_url": "https://www.aplusproducts.net/products/15-mm-sternum-strap-design-tech-pack-with-fidlock-snap-buckle-15-digital-download-1",
+      "downloads": [],
+      "status": "No public direct asset link in product HTML; storefront offers checkout delivery. Local tech packs used when available."
+    }
+  ],
+  "inputs": [
+    {
+      "id": "fidlock-v-buckle-25-with-pull-tab",
+      "photo_url": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/V-11201-V-BUCKLE-25_pull-tab-top_png.png?v=1642514491&width=800",
+      "path": "input/web/fidlock-v-buckle-25-with-pull-tab.png",
+      "sha256": "7084815354f1cceb09797691367c4b7e2f1fcbd249e3f9eb5e59e2cedd80fcaf",
+      "bytes": 51279,
+      "source_type": "existing-svg",
+      "vector_source": "StrapBuilder/attached_assets/FL-V-11201_1760148428952.svg"
+    },
+    {
+      "id": "fidlock-snap-buckle-15",
+      "photo_url": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/F6020-SNAP-buckle-15-F_M-perspective_png.png?v=1642429476&width=800",
+      "path": "input/web/fidlock-snap-buckle-15.png",
+      "sha256": "f1f076d6772271c185d101e503b10a82c8ee85aebbfa4c916817721876e9d6ae",
+      "bytes": 40046,
+      "source_type": "vector-kit",
+      "vector_source": "../public/templates/downloads/SternLinkLite_Techpack_01.09.25_download.ai"
+    },
+    {
+      "id": "fidlock-v-buckle-20-black-flap-with-pull-tab",
+      "photo_url": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/V-14410-V-buckle-20-black-flap-_-pulltab-perspective_png.png?v=1642505115&width=800",
+      "path": "input/web/fidlock-v-buckle-20-black-flap-with-pull-tab.png",
+      "sha256": "f699e11aad6b180dbc31db29ae5b7b662f926162c44f3d6739977427385b328c",
+      "bytes": 104837,
+      "source_type": "vector-kit",
+      "vector_source": "../public/templates/downloads/APLUSsternumstrap_techpackasset.ai"
+    },
+    {
+      "id": "v-buckle-25-sb-black-flap-with-pull-tab",
+      "photo_url": "https://cdn.shopify.com/s/files/1/0582/0406/1873/files/FV-15401-V-BUCKLE-25-SB-black-flap_pull-tab-perspective.png?v=1686859349&width=800",
+      "path": "input/web/v-buckle-25-sb-black-flap-with-pull-tab.png",
+      "sha256": "62dcb33b6790cfdc570cfd5e6d10b3d3e12c34948f410a48742238d11802dbbb",
+      "bytes": 149570,
+      "source_type": "vector-kit",
+      "vector_source": "../public/templates/downloads/FIDLOCKDogCollar_Techpack_02.25.25_.ai"
+    },
+    {
+      "id": "fidlock-snap-buckle-flat-25",
+      "photo_url": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/F8040-SNAP-buckle-flat-25-perspective_png.png?v=1642430800&width=800",
+      "path": "input/web/fidlock-snap-buckle-flat-25.png",
+      "sha256": "dc9604a5dc61aa7de28ccdc25196df038bf81d182dc1ba4738d0495f3dc63e4a",
+      "bytes": 117542,
+      "source_type": "photo-trace",
+      "vector_source": null
+    },
+    {
+      "id": "fidlock-snap-buckle-flat-40",
+      "photo_url": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/F8022-SNAP-buckle-flat-40-perspective_png.png?v=1642431789&width=800",
+      "path": "input/web/fidlock-snap-buckle-flat-40.png",
+      "sha256": "b56d34732956d13f519938ae967a1a56bf8301ad7fbf68faf1b45272de0dd4f0",
+      "bytes": 185693,
+      "source_type": "photo-trace",
+      "vector_source": null
+    },
+    {
+      "id": "aluminum-g-hook",
+      "photo_url": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/Black-Iso_c344e6d2-6383-4fff-9c33-04abda5dfa88.png?v=1642167778&width=800",
+      "path": "input/web/aluminum-g-hook.png",
+      "sha256": "1294af62eb551c8a5202baf83597a57b97eff99a83871c79de5bf57b4a746703",
+      "bytes": 55369,
+      "source_type": "photo-trace",
+      "vector_source": null
+    },
+    {
+      "id": "aluminum-s-hook",
+      "photo_url": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/Black-Iso_84827fbc-22e1-4c6a-b65c-ec4ab1da01d6.png?v=1639588455&width=800",
+      "path": "input/web/aluminum-s-hook.png",
+      "sha256": "8031b6ea6568ced0fb0b36fd3649dc9a78158bb40c301ba7c98bea6d51922421",
+      "bytes": 32264,
+      "source_type": "photo-trace",
+      "vector_source": null
+    },
+    {
+      "id": "aluminum-strap-keeper",
+      "photo_url": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/Black-Iso_fe73f095-4c50-4da5-a5d7-9a1b795e91d5.png?v=1639588608&width=800",
+      "path": "input/web/aluminum-strap-keeper.png",
+      "sha256": "53de06b139e0c439af66e775f667fe489f2705b350973208c93e663940fed9b5",
+      "bytes": 26054,
+      "source_type": "photo-trace",
+      "vector_source": null
+    },
+    {
+      "id": "fidlock-slider-25",
+      "photo_url": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/04010-SLIDER-25-perspective_png.png?v=1642428264&width=800",
+      "path": "input/web/fidlock-slider-25.png",
+      "sha256": "308d849b671054f644ceb8f94a4fa1d3ed263b77904e3e4ce46e9f27fbde65b1",
+      "bytes": 55873,
+      "source_type": "photo-trace",
+      "vector_source": null
+    },
+    {
+      "id": "winhigh-plastic-side-release-fox-buckle",
+      "photo_url": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/1-Inch-Iso_c4472451-cec1-4ef4-a5f7-6fe2caef2c1a.png?v=1639590399&width=800",
+      "path": "input/web/winhigh-plastic-side-release-fox-buckle.png",
+      "sha256": "223c61a63715612e675f806002fbff6c6b188f18a7c83d226fe767c25908804a",
+      "bytes": 64278,
+      "source_type": "photo-trace",
+      "vector_source": null
+    },
+    {
+      "id": "winhigh-plastic-side-release-dual-adjust-xt-buckle",
+      "photo_url": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/1-Inch-Iso_84f89c29-0670-426f-8b5f-bd250a4079d9.png?v=1639592646&width=800",
+      "path": "input/web/winhigh-plastic-side-release-dual-adjust-xt-buckle.png",
+      "sha256": "12bb0a4e71d0988bb7e12a892110507400a8850f8d570cce2b3fb04f6eee675b",
+      "bytes": 53686,
+      "source_type": "photo-trace",
+      "vector_source": null
+    },
+    {
+      "id": "winhigh-plastic-side-release-bondi-buckle",
+      "photo_url": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/1-Inch-Iso_b01c0772-d91f-490c-907c-3d568716eb3b.png?v=1639589331&width=800",
+      "path": "input/web/winhigh-plastic-side-release-bondi-buckle.png",
+      "sha256": "0d4f5787d5782c0d2e208f7dc86e2efe0369de9201de1930d46a1275390dae82",
+      "bytes": 83381,
+      "source_type": "photo-trace",
+      "vector_source": null
+    },
+    {
+      "id": "plastic-center-release-buckle",
+      "photo_url": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/5-8-Inch-Iso_a0b0cae7-ab7e-4d85-a8fb-09985de1fbbd.png?v=1647887772&width=800",
+      "path": "input/web/plastic-center-release-buckle.png",
+      "sha256": "d2d3e28321bfec01ae8e29b65c3980e8e072f44024326c6b81c19b5ce04f8755",
+      "bytes": 42104,
+      "source_type": "photo-trace",
+      "vector_source": null
+    },
+    {
+      "id": "520-double-bar-buckle",
+      "photo_url": "https://cdn.shopify.com/s/files/1/0582/0406/1873/files/AL-520-16NP_closed.png?v=1699634986&width=800",
+      "path": "input/web/520-double-bar-buckle.png",
+      "sha256": "5b662439f85b37edfa445b6f812de496e7e1323c02a22910e7e142c5d31c774f",
+      "bytes": 96048,
+      "source_type": "photo-trace",
+      "vector_source": null
+    },
+    {
+      "id": "720-roller-buckle",
+      "photo_url": "https://cdn.shopify.com/s/files/1/0582/0406/1873/files/AL-720-24BN_closed.png?v=1699635449&width=800",
+      "path": "input/web/720-roller-buckle.png",
+      "sha256": "d411dec600889174ec5cd02a2a522a89c5afaf5a96aa118259f0181c7a345373",
+      "bytes": 86633,
+      "source_type": "photo-trace",
+      "vector_source": null
+    }
+  ],
+  "failures": [],
+  "cached_photo_bytes": 1244657
+}

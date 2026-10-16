@@ -1,0 +1,12 @@
+{
+  "winhigh-plastic-side-release-fox-buckle": {
+    "width_mm": 15.875,
+    "name": "Fox side release buckle — example 5/8 inch variant"
+  },
+  "my-local-buckle": {
+    "width_mm": 25,
+    "type": "side-release",
+    "reference_span": 180,
+    "anchors": [[45, 160], [350, 160]]
+  }
+}
