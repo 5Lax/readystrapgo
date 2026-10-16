@@ -1,0 +1,1546 @@
+{
+  "hardware": [
+    {
+      "sku": "BKL-SR-075",
+      "name": "3/4\" Side Release Buckle",
+      "category": "buckle",
+      "type": "side-release",
+      "width_options": [0.75],
+      "price_tiers": {
+        "1": 0.45,
+        "100": 0.38,
+        "500": 0.32,
+        "1000": 0.28,
+        "5000": 0.22
+      },
+      "specs": {
+        "weight_g": 8,
+        "material": "POM Acetal",
+        "finish": "Matte",
+        "load_rating_lbs": 50
+      },
+      "id": "BKL-SR-075",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true,
+      "image_url": null,
+      "updated_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "sku": "BKL-SR-100",
+      "name": "1\" Side Release Buckle",
+      "category": "buckle",
+      "type": "side-release",
+      "width_options": [1.0],
+      "price_tiers": {
+        "1": 0.55,
+        "100": 0.46,
+        "500": 0.38,
+        "1000": 0.32,
+        "5000": 0.26
+      },
+      "specs": {
+        "weight_g": 12,
+        "material": "POM Acetal",
+        "finish": "Matte",
+        "load_rating_lbs": 80
+      },
+      "id": "BKL-SR-100",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true,
+      "image_url": null,
+      "updated_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "sku": "BKL-CAM-100",
+      "name": "1\" Cam Buckle",
+      "category": "buckle",
+      "type": "cam",
+      "width_options": [1.0],
+      "price_tiers": {
+        "1": 0.65,
+        "100": 0.55,
+        "500": 0.45,
+        "1000": 0.38,
+        "5000": 0.3
+      },
+      "specs": {
+        "weight_g": 18,
+        "material": "Zinc Alloy",
+        "finish": "Nickel Plated",
+        "load_rating_lbs": 200
+      },
+      "id": "BKL-CAM-100",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true,
+      "image_url": null,
+      "updated_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "sku": "BKL-FID-075",
+      "name": "3/4\" FIDLOCK V-Buckle",
+      "category": "buckle",
+      "type": "fidlock",
+      "width_options": [0.75],
+      "price_tiers": {
+        "1": 3.25,
+        "100": 2.95,
+        "500": 2.65,
+        "1000": 2.4,
+        "5000": 2.15
+      },
+      "specs": {
+        "weight_g": 14,
+        "material": "Glass-Filled Nylon",
+        "finish": "Matte Black",
+        "load_rating_lbs": 60
+      },
+      "id": "BKL-FID-075",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true,
+      "image_url": null,
+      "updated_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "sku": "RNG-D-075",
+      "name": "3/4\" D-Ring",
+      "category": "ring",
+      "type": "d-ring",
+      "width_options": [0.75],
+      "price_tiers": {
+        "1": 0.18,
+        "100": 0.14,
+        "500": 0.11,
+        "1000": 0.09,
+        "5000": 0.07
+      },
+      "specs": {
+        "weight_g": 6,
+        "material": "Steel",
+        "finish": "Nickel Plated",
+        "load_rating_lbs": 150
+      },
+      "id": "RNG-D-075",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true,
+      "image_url": null,
+      "updated_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "sku": "RNG-D-100",
+      "name": "1\" D-Ring",
+      "category": "ring",
+      "type": "d-ring",
+      "width_options": [1.0],
+      "price_tiers": {
+        "1": 0.22,
+        "100": 0.18,
+        "500": 0.14,
+        "1000": 0.11,
+        "5000": 0.08
+      },
+      "specs": {
+        "weight_g": 10,
+        "material": "Steel",
+        "finish": "Nickel Plated",
+        "load_rating_lbs": 200
+      },
+      "id": "RNG-D-100",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true,
+      "image_url": null,
+      "updated_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "sku": "RNG-O-100",
+      "name": "1\" O-Ring",
+      "category": "ring",
+      "type": "o-ring",
+      "width_options": [1.0],
+      "price_tiers": {
+        "1": 0.15,
+        "100": 0.12,
+        "500": 0.09,
+        "1000": 0.07,
+        "5000": 0.05
+      },
+      "specs": {
+        "weight_g": 8,
+        "material": "Steel",
+        "finish": "Nickel Plated",
+        "load_rating_lbs": 180
+      },
+      "id": "RNG-O-100",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true,
+      "image_url": null,
+      "updated_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "sku": "SLD-TRI-075",
+      "name": "3/4\" Tri-Glide Slider",
+      "category": "slider",
+      "type": "tri-glide",
+      "width_options": [0.75],
+      "price_tiers": {
+        "1": 0.22,
+        "100": 0.18,
+        "500": 0.14,
+        "1000": 0.11,
+        "5000": 0.08
+      },
+      "specs": {
+        "weight_g": 4,
+        "material": "POM Acetal",
+        "finish": "Matte",
+        "load_rating_lbs": 40
+      },
+      "id": "SLD-TRI-075",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true,
+      "image_url": null,
+      "updated_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "sku": "SLD-TRI-100",
+      "name": "1\" Tri-Glide Slider",
+      "category": "slider",
+      "type": "tri-glide",
+      "width_options": [1.0],
+      "price_tiers": {
+        "1": 0.28,
+        "100": 0.22,
+        "500": 0.18,
+        "1000": 0.14,
+        "5000": 0.1
+      },
+      "specs": {
+        "weight_g": 6,
+        "material": "POM Acetal",
+        "finish": "Matte",
+        "load_rating_lbs": 60
+      },
+      "id": "SLD-TRI-100",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true,
+      "image_url": null,
+      "updated_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "sku": "SLD-LAD-100",
+      "name": "1\" Ladder Lock Slider",
+      "category": "slider",
+      "type": "ladder-lock",
+      "width_options": [1.0],
+      "price_tiers": {
+        "1": 0.32,
+        "100": 0.26,
+        "500": 0.21,
+        "1000": 0.17,
+        "5000": 0.13
+      },
+      "specs": {
+        "weight_g": 8,
+        "material": "POM Acetal",
+        "finish": "Matte",
+        "load_rating_lbs": 70
+      },
+      "id": "SLD-LAD-100",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true,
+      "image_url": null,
+      "updated_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "sku": "SNP-HK-075",
+      "name": "3/4\" Snap Hook",
+      "category": "snap",
+      "type": "snap-hook",
+      "width_options": [0.75],
+      "price_tiers": {
+        "1": 0.55,
+        "100": 0.45,
+        "500": 0.38,
+        "1000": 0.32,
+        "5000": 0.26
+      },
+      "specs": {
+        "weight_g": 22,
+        "material": "Zinc Alloy",
+        "finish": "Nickel Plated",
+        "load_rating_lbs": 120
+      },
+      "id": "SNP-HK-075",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true,
+      "image_url": null,
+      "updated_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "sku": "SNP-HK-100",
+      "name": "1\" Snap Hook",
+      "category": "snap",
+      "type": "snap-hook",
+      "width_options": [1.0],
+      "price_tiers": {
+        "1": 0.65,
+        "100": 0.55,
+        "500": 0.45,
+        "1000": 0.38,
+        "5000": 0.3
+      },
+      "specs": {
+        "weight_g": 32,
+        "material": "Zinc Alloy",
+        "finish": "Nickel Plated",
+        "load_rating_lbs": 180
+      },
+      "id": "SNP-HK-100",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true,
+      "image_url": null,
+      "updated_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "sku": "SNP-SWV-100",
+      "name": "1\" Swivel Snap Hook",
+      "category": "snap",
+      "type": "swivel-hook",
+      "width_options": [1.0],
+      "price_tiers": {
+        "1": 0.72,
+        "100": 0.62,
+        "500": 0.52,
+        "1000": 0.44,
+        "5000": 0.36
+      },
+      "specs": {
+        "weight_g": 38,
+        "material": "Zinc Alloy",
+        "finish": "Nickel Plated",
+        "load_rating_lbs": 160
+      },
+      "id": "SNP-SWV-100",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true,
+      "image_url": null,
+      "updated_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "sku": "OTH-RVT-DC",
+      "name": "Double Cap Rivet",
+      "category": "other",
+      "type": "rivet",
+      "width_options": [0.5, 0.75, 1.0, 1.5],
+      "price_tiers": {
+        "1": 0.08,
+        "100": 0.06,
+        "500": 0.05,
+        "1000": 0.04,
+        "5000": 0.03
+      },
+      "specs": {
+        "weight_g": 2,
+        "material": "Brass",
+        "finish": "Antique Brass",
+        "load_rating_lbs": 25
+      },
+      "id": "OTH-RVT-DC",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true,
+      "image_url": null,
+      "updated_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "sku": "OTH-CRD-END",
+      "name": "Cord End / Aglet",
+      "category": "other",
+      "type": "cord-end",
+      "width_options": [0.25, 0.375],
+      "price_tiers": {
+        "1": 0.12,
+        "100": 0.09,
+        "500": 0.07,
+        "1000": 0.05,
+        "5000": 0.04
+      },
+      "specs": {
+        "weight_g": 1,
+        "material": "Zinc Alloy",
+        "finish": "Nickel Plated",
+        "load_rating_lbs": 15
+      },
+      "id": "OTH-CRD-END",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true,
+      "image_url": null,
+      "updated_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "sku": "OTH-KEY-SPL",
+      "name": "Split Key Ring 1\"",
+      "category": "other",
+      "type": "key-ring",
+      "width_options": [1.0],
+      "price_tiers": {
+        "1": 0.1,
+        "100": 0.08,
+        "500": 0.06,
+        "1000": 0.05,
+        "5000": 0.04
+      },
+      "specs": {
+        "weight_g": 4,
+        "material": "Steel",
+        "finish": "Nickel Plated",
+        "load_rating_lbs": 30
+      },
+      "id": "OTH-KEY-SPL",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true,
+      "image_url": null,
+      "updated_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "sku": "OTH-KPR-100",
+      "name": "1\" Webbing Keeper",
+      "category": "other",
+      "type": "keeper",
+      "width_options": [1.0],
+      "price_tiers": {
+        "1": 0.06,
+        "100": 0.05,
+        "500": 0.04,
+        "1000": 0.03,
+        "5000": 0.02
+      },
+      "specs": {
+        "weight_g": 1,
+        "material": "Silicone Rubber",
+        "finish": "Matte Black",
+        "load_rating_lbs": 5
+      },
+      "id": "OTH-KPR-100",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true,
+      "image_url": null,
+      "updated_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "sku": "BKL-CBR-150",
+      "name": "1.5\" Cobra Buckle",
+      "category": "buckle",
+      "type": "side-release",
+      "width_options": [1.5],
+      "price_tiers": {
+        "1": 1.85,
+        "100": 1.65,
+        "500": 1.45,
+        "1000": 1.28,
+        "5000": 1.12
+      },
+      "specs": {
+        "weight_g": 45,
+        "material": "Glass-Filled Nylon",
+        "finish": "Matte Black",
+        "load_rating_lbs": 300
+      },
+      "id": "BKL-CBR-150",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true,
+      "image_url": null,
+      "updated_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "sku": "BKL-DFX-100",
+      "name": "1\" Duraflex Stealth Buckle",
+      "category": "buckle",
+      "type": "side-release",
+      "width_options": [1.0],
+      "price_tiers": {
+        "1": 0.95,
+        "100": 0.82,
+        "500": 0.72,
+        "1000": 0.62,
+        "5000": 0.52
+      },
+      "specs": {
+        "weight_g": 15,
+        "material": "POM Acetal",
+        "finish": "Matte Black",
+        "load_rating_lbs": 100
+      },
+      "id": "BKL-DFX-100",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true,
+      "image_url": null,
+      "updated_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "sku": "BKL-BRK-075",
+      "name": "3/4\" Breakaway Safety Buckle",
+      "category": "buckle",
+      "type": "breakaway",
+      "width_options": [0.75],
+      "price_tiers": {
+        "1": 0.38,
+        "100": 0.32,
+        "500": 0.26,
+        "1000": 0.22,
+        "5000": 0.18
+      },
+      "specs": {
+        "weight_g": 6,
+        "material": "POM Acetal",
+        "finish": "Matte",
+        "load_rating_lbs": 15
+      },
+      "id": "BKL-BRK-075",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true,
+      "image_url": null,
+      "updated_at": "2026-01-01T00:00:00Z"
+    }
+  ],
+  "webbing": [
+    {
+      "material": "nylon",
+      "width": 0.75,
+      "color_options": [
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "Navy",
+          "hex": "#1e3a5f"
+        },
+        {
+          "name": "Charcoal",
+          "hex": "#36454f"
+        },
+        {
+          "name": "Olive",
+          "hex": "#556b2f"
+        },
+        {
+          "name": "Coyote",
+          "hex": "#81613c"
+        },
+        {
+          "name": "Red",
+          "hex": "#cc0000"
+        },
+        {
+          "name": "Royal Blue",
+          "hex": "#4169e1"
+        },
+        {
+          "name": "Safety Orange",
+          "hex": "#ff6600"
+        }
+      ],
+      "price_per_yard_by_region": {
+        "usa": 0.38,
+        "mexico": 0.32,
+        "taiwan": 0.28,
+        "vietnam": 0.22,
+        "cambodia": 0.2,
+        "china": 0.18
+      },
+      "moq_by_region": {
+        "usa": 50,
+        "mexico": 100,
+        "taiwan": 200,
+        "vietnam": 500,
+        "cambodia": 500,
+        "china": 1000
+      },
+      "specs": {
+        "tensile_strength_lbs": 600,
+        "weight_per_yard_oz": 0.8
+      },
+      "id": "nylon-0.75",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true
+    },
+    {
+      "material": "nylon",
+      "width": 1.0,
+      "color_options": [
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "Navy",
+          "hex": "#1e3a5f"
+        },
+        {
+          "name": "Charcoal",
+          "hex": "#36454f"
+        },
+        {
+          "name": "Olive",
+          "hex": "#556b2f"
+        },
+        {
+          "name": "Coyote",
+          "hex": "#81613c"
+        },
+        {
+          "name": "Red",
+          "hex": "#cc0000"
+        },
+        {
+          "name": "Royal Blue",
+          "hex": "#4169e1"
+        },
+        {
+          "name": "Safety Orange",
+          "hex": "#ff6600"
+        }
+      ],
+      "price_per_yard_by_region": {
+        "usa": 0.42,
+        "mexico": 0.36,
+        "taiwan": 0.32,
+        "vietnam": 0.26,
+        "cambodia": 0.24,
+        "china": 0.22
+      },
+      "moq_by_region": {
+        "usa": 50,
+        "mexico": 100,
+        "taiwan": 200,
+        "vietnam": 500,
+        "cambodia": 500,
+        "china": 1000
+      },
+      "specs": {
+        "tensile_strength_lbs": 800,
+        "weight_per_yard_oz": 1.1
+      },
+      "id": "nylon-1.0",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true
+    },
+    {
+      "material": "nylon",
+      "width": 1.5,
+      "color_options": [
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "Navy",
+          "hex": "#1e3a5f"
+        },
+        {
+          "name": "Charcoal",
+          "hex": "#36454f"
+        },
+        {
+          "name": "Olive",
+          "hex": "#556b2f"
+        },
+        {
+          "name": "Coyote",
+          "hex": "#81613c"
+        },
+        {
+          "name": "Red",
+          "hex": "#cc0000"
+        },
+        {
+          "name": "Royal Blue",
+          "hex": "#4169e1"
+        },
+        {
+          "name": "Safety Orange",
+          "hex": "#ff6600"
+        }
+      ],
+      "price_per_yard_by_region": {
+        "usa": 0.52,
+        "mexico": 0.44,
+        "taiwan": 0.38,
+        "vietnam": 0.32,
+        "cambodia": 0.28,
+        "china": 0.26
+      },
+      "moq_by_region": {
+        "usa": 50,
+        "mexico": 100,
+        "taiwan": 200,
+        "vietnam": 500,
+        "cambodia": 500,
+        "china": 1000
+      },
+      "specs": {
+        "tensile_strength_lbs": 1200,
+        "weight_per_yard_oz": 1.6
+      },
+      "id": "nylon-1.5",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true
+    },
+    {
+      "material": "polyester",
+      "width": 0.75,
+      "color_options": [
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "White",
+          "hex": "#ffffff"
+        },
+        {
+          "name": "Gray",
+          "hex": "#808080"
+        },
+        {
+          "name": "Navy",
+          "hex": "#1e3a5f"
+        },
+        {
+          "name": "Red",
+          "hex": "#cc0000"
+        }
+      ],
+      "price_per_yard_by_region": {
+        "usa": 0.32,
+        "mexico": 0.26,
+        "taiwan": 0.22,
+        "vietnam": 0.18,
+        "cambodia": 0.16,
+        "china": 0.14
+      },
+      "moq_by_region": {
+        "usa": 50,
+        "mexico": 100,
+        "taiwan": 200,
+        "vietnam": 500,
+        "cambodia": 500,
+        "china": 1000
+      },
+      "specs": {
+        "tensile_strength_lbs": 450,
+        "weight_per_yard_oz": 0.7
+      },
+      "id": "polyester-0.75",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true
+    },
+    {
+      "material": "polyester",
+      "width": 1.0,
+      "color_options": [
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "White",
+          "hex": "#ffffff"
+        },
+        {
+          "name": "Gray",
+          "hex": "#808080"
+        },
+        {
+          "name": "Navy",
+          "hex": "#1e3a5f"
+        },
+        {
+          "name": "Red",
+          "hex": "#cc0000"
+        }
+      ],
+      "price_per_yard_by_region": {
+        "usa": 0.35,
+        "mexico": 0.29,
+        "taiwan": 0.25,
+        "vietnam": 0.2,
+        "cambodia": 0.18,
+        "china": 0.16
+      },
+      "moq_by_region": {
+        "usa": 50,
+        "mexico": 100,
+        "taiwan": 200,
+        "vietnam": 500,
+        "cambodia": 500,
+        "china": 1000
+      },
+      "specs": {
+        "tensile_strength_lbs": 600,
+        "weight_per_yard_oz": 0.9
+      },
+      "id": "polyester-1.0",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true
+    },
+    {
+      "material": "polyester",
+      "width": 1.5,
+      "color_options": [
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "White",
+          "hex": "#ffffff"
+        },
+        {
+          "name": "Gray",
+          "hex": "#808080"
+        },
+        {
+          "name": "Navy",
+          "hex": "#1e3a5f"
+        },
+        {
+          "name": "Red",
+          "hex": "#cc0000"
+        }
+      ],
+      "price_per_yard_by_region": {
+        "usa": 0.45,
+        "mexico": 0.38,
+        "taiwan": 0.32,
+        "vietnam": 0.26,
+        "cambodia": 0.24,
+        "china": 0.22
+      },
+      "moq_by_region": {
+        "usa": 50,
+        "mexico": 100,
+        "taiwan": 200,
+        "vietnam": 500,
+        "cambodia": 500,
+        "china": 1000
+      },
+      "specs": {
+        "tensile_strength_lbs": 900,
+        "weight_per_yard_oz": 1.4
+      },
+      "id": "polyester-1.5",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true
+    },
+    {
+      "material": "polypropylene",
+      "width": 0.75,
+      "color_options": [
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "White",
+          "hex": "#ffffff"
+        },
+        {
+          "name": "Red",
+          "hex": "#cc0000"
+        },
+        {
+          "name": "Blue",
+          "hex": "#0066cc"
+        },
+        {
+          "name": "Green",
+          "hex": "#228b22"
+        },
+        {
+          "name": "Yellow",
+          "hex": "#ffd700"
+        }
+      ],
+      "price_per_yard_by_region": {
+        "usa": 0.2,
+        "mexico": 0.16,
+        "taiwan": 0.14,
+        "vietnam": 0.11,
+        "cambodia": 0.1,
+        "china": 0.09
+      },
+      "moq_by_region": {
+        "usa": 50,
+        "mexico": 100,
+        "taiwan": 200,
+        "vietnam": 500,
+        "cambodia": 500,
+        "china": 1000
+      },
+      "specs": {
+        "tensile_strength_lbs": 300,
+        "weight_per_yard_oz": 0.5
+      },
+      "id": "polypropylene-0.75",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true
+    },
+    {
+      "material": "polypropylene",
+      "width": 1.0,
+      "color_options": [
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "White",
+          "hex": "#ffffff"
+        },
+        {
+          "name": "Red",
+          "hex": "#cc0000"
+        },
+        {
+          "name": "Blue",
+          "hex": "#0066cc"
+        },
+        {
+          "name": "Green",
+          "hex": "#228b22"
+        },
+        {
+          "name": "Yellow",
+          "hex": "#ffd700"
+        }
+      ],
+      "price_per_yard_by_region": {
+        "usa": 0.22,
+        "mexico": 0.18,
+        "taiwan": 0.15,
+        "vietnam": 0.12,
+        "cambodia": 0.11,
+        "china": 0.1
+      },
+      "moq_by_region": {
+        "usa": 50,
+        "mexico": 100,
+        "taiwan": 200,
+        "vietnam": 500,
+        "cambodia": 500,
+        "china": 1000
+      },
+      "specs": {
+        "tensile_strength_lbs": 400,
+        "weight_per_yard_oz": 0.7
+      },
+      "id": "polypropylene-1.0",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true
+    },
+    {
+      "material": "polypropylene",
+      "width": 1.5,
+      "color_options": [
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "White",
+          "hex": "#ffffff"
+        },
+        {
+          "name": "Red",
+          "hex": "#cc0000"
+        },
+        {
+          "name": "Blue",
+          "hex": "#0066cc"
+        },
+        {
+          "name": "Green",
+          "hex": "#228b22"
+        },
+        {
+          "name": "Yellow",
+          "hex": "#ffd700"
+        }
+      ],
+      "price_per_yard_by_region": {
+        "usa": 0.28,
+        "mexico": 0.23,
+        "taiwan": 0.2,
+        "vietnam": 0.16,
+        "cambodia": 0.14,
+        "china": 0.13
+      },
+      "moq_by_region": {
+        "usa": 50,
+        "mexico": 100,
+        "taiwan": 200,
+        "vietnam": 500,
+        "cambodia": 500,
+        "china": 1000
+      },
+      "specs": {
+        "tensile_strength_lbs": 600,
+        "weight_per_yard_oz": 1.0
+      },
+      "id": "polypropylene-1.5",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true
+    },
+    {
+      "material": "elastic",
+      "width": 0.75,
+      "color_options": [
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "White",
+          "hex": "#ffffff"
+        },
+        {
+          "name": "Gray",
+          "hex": "#808080"
+        }
+      ],
+      "price_per_yard_by_region": {
+        "usa": 0.5,
+        "mexico": 0.42,
+        "taiwan": 0.36,
+        "vietnam": 0.3,
+        "cambodia": 0.28,
+        "china": 0.25
+      },
+      "moq_by_region": {
+        "usa": 50,
+        "mexico": 100,
+        "taiwan": 200,
+        "vietnam": 500,
+        "cambodia": 500,
+        "china": 1000
+      },
+      "specs": {
+        "tensile_strength_lbs": 150,
+        "weight_per_yard_oz": 0.6,
+        "stretch_percent": 100
+      },
+      "id": "elastic-0.75",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true
+    },
+    {
+      "material": "elastic",
+      "width": 1.0,
+      "color_options": [
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "White",
+          "hex": "#ffffff"
+        },
+        {
+          "name": "Gray",
+          "hex": "#808080"
+        }
+      ],
+      "price_per_yard_by_region": {
+        "usa": 0.55,
+        "mexico": 0.46,
+        "taiwan": 0.4,
+        "vietnam": 0.33,
+        "cambodia": 0.3,
+        "china": 0.28
+      },
+      "moq_by_region": {
+        "usa": 50,
+        "mexico": 100,
+        "taiwan": 200,
+        "vietnam": 500,
+        "cambodia": 500,
+        "china": 1000
+      },
+      "specs": {
+        "tensile_strength_lbs": 200,
+        "weight_per_yard_oz": 0.8,
+        "stretch_percent": 100
+      },
+      "id": "elastic-1.0",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true
+    },
+    {
+      "material": "elastic",
+      "width": 1.5,
+      "color_options": [
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "White",
+          "hex": "#ffffff"
+        },
+        {
+          "name": "Gray",
+          "hex": "#808080"
+        }
+      ],
+      "price_per_yard_by_region": {
+        "usa": 0.68,
+        "mexico": 0.58,
+        "taiwan": 0.5,
+        "vietnam": 0.42,
+        "cambodia": 0.38,
+        "china": 0.35
+      },
+      "moq_by_region": {
+        "usa": 50,
+        "mexico": 100,
+        "taiwan": 200,
+        "vietnam": 500,
+        "cambodia": 500,
+        "china": 1000
+      },
+      "specs": {
+        "tensile_strength_lbs": 280,
+        "weight_per_yard_oz": 1.2,
+        "stretch_percent": 100
+      },
+      "id": "elastic-1.5",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true
+    },
+    {
+      "material": "uhmwpe",
+      "width": 0.75,
+      "color_options": [
+        {
+          "name": "White",
+          "hex": "#f5f5f5"
+        },
+        {
+          "name": "Gray",
+          "hex": "#808080"
+        },
+        {
+          "name": "Black",
+          "hex": "#1a1a1a"
+        }
+      ],
+      "price_per_yard_by_region": {
+        "usa": 1.65,
+        "mexico": 1.45,
+        "taiwan": 1.3,
+        "vietnam": 1.15,
+        "cambodia": 1.1,
+        "china": 1.0
+      },
+      "moq_by_region": {
+        "usa": 100,
+        "mexico": 200,
+        "taiwan": 300,
+        "vietnam": 500,
+        "cambodia": 500,
+        "china": 1000
+      },
+      "specs": {
+        "tensile_strength_lbs": 1500,
+        "weight_per_yard_oz": 0.4
+      },
+      "id": "uhmwpe-0.75",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true
+    },
+    {
+      "material": "uhmwpe",
+      "width": 1.0,
+      "color_options": [
+        {
+          "name": "White",
+          "hex": "#f5f5f5"
+        },
+        {
+          "name": "Gray",
+          "hex": "#808080"
+        },
+        {
+          "name": "Black",
+          "hex": "#1a1a1a"
+        }
+      ],
+      "price_per_yard_by_region": {
+        "usa": 1.85,
+        "mexico": 1.62,
+        "taiwan": 1.45,
+        "vietnam": 1.28,
+        "cambodia": 1.22,
+        "china": 1.12
+      },
+      "moq_by_region": {
+        "usa": 100,
+        "mexico": 200,
+        "taiwan": 300,
+        "vietnam": 500,
+        "cambodia": 500,
+        "china": 1000
+      },
+      "specs": {
+        "tensile_strength_lbs": 2000,
+        "weight_per_yard_oz": 0.5
+      },
+      "id": "uhmwpe-1.0",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true
+    },
+    {
+      "material": "uhmwpe",
+      "width": 1.5,
+      "color_options": [
+        {
+          "name": "White",
+          "hex": "#f5f5f5"
+        },
+        {
+          "name": "Gray",
+          "hex": "#808080"
+        },
+        {
+          "name": "Black",
+          "hex": "#1a1a1a"
+        }
+      ],
+      "price_per_yard_by_region": {
+        "usa": 2.35,
+        "mexico": 2.05,
+        "taiwan": 1.85,
+        "vietnam": 1.62,
+        "cambodia": 1.55,
+        "china": 1.42
+      },
+      "moq_by_region": {
+        "usa": 100,
+        "mexico": 200,
+        "taiwan": 300,
+        "vietnam": 500,
+        "cambodia": 500,
+        "china": 1000
+      },
+      "specs": {
+        "tensile_strength_lbs": 3000,
+        "weight_per_yard_oz": 0.7
+      },
+      "id": "uhmwpe-1.5",
+      "created_at": "2026-01-01T00:00:00Z",
+      "active": true
+    }
+  ],
+  "rules": [
+    {
+      "region": "usa",
+      "labor_rate_per_unit": 0.35,
+      "tooling_base": 0,
+      "tooling_per_hardware_type": 0,
+      "shipping_rate_per_lb": 0.85,
+      "shipping_base": 45,
+      "lead_time_weeks_min": 2,
+      "lead_time_weeks_max": 3,
+      "moq": 100,
+      "qty_breaks": [
+        {
+          "min": 1,
+          "max": 99,
+          "discount": 0
+        },
+        {
+          "min": 100,
+          "max": 249,
+          "discount": 0
+        },
+        {
+          "min": 250,
+          "max": 499,
+          "discount": 0.05
+        },
+        {
+          "min": 500,
+          "max": 999,
+          "discount": 0.1
+        },
+        {
+          "min": 1000,
+          "max": 4999,
+          "discount": 0.18
+        },
+        {
+          "min": 5000,
+          "max": 9999,
+          "discount": 0.25
+        },
+        {
+          "min": 10000,
+          "max": 99999,
+          "discount": 0.32
+        }
+      ],
+      "id": "usa",
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "region": "mexico",
+      "labor_rate_per_unit": 0.25,
+      "tooling_base": 200,
+      "tooling_per_hardware_type": 50,
+      "shipping_rate_per_lb": 0.65,
+      "shipping_base": 75,
+      "lead_time_weeks_min": 4,
+      "lead_time_weeks_max": 5,
+      "moq": 250,
+      "qty_breaks": [
+        {
+          "min": 1,
+          "max": 99,
+          "discount": 0
+        },
+        {
+          "min": 100,
+          "max": 249,
+          "discount": 0
+        },
+        {
+          "min": 250,
+          "max": 499,
+          "discount": 0.05
+        },
+        {
+          "min": 500,
+          "max": 999,
+          "discount": 0.1
+        },
+        {
+          "min": 1000,
+          "max": 4999,
+          "discount": 0.18
+        },
+        {
+          "min": 5000,
+          "max": 9999,
+          "discount": 0.25
+        },
+        {
+          "min": 10000,
+          "max": 99999,
+          "discount": 0.32
+        }
+      ],
+      "id": "mexico",
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "region": "taiwan",
+      "labor_rate_per_unit": 0.2,
+      "tooling_base": 350,
+      "tooling_per_hardware_type": 75,
+      "shipping_rate_per_lb": 0.55,
+      "shipping_base": 150,
+      "lead_time_weeks_min": 6,
+      "lead_time_weeks_max": 8,
+      "moq": 500,
+      "qty_breaks": [
+        {
+          "min": 1,
+          "max": 99,
+          "discount": 0
+        },
+        {
+          "min": 100,
+          "max": 249,
+          "discount": 0
+        },
+        {
+          "min": 250,
+          "max": 499,
+          "discount": 0.05
+        },
+        {
+          "min": 500,
+          "max": 999,
+          "discount": 0.1
+        },
+        {
+          "min": 1000,
+          "max": 4999,
+          "discount": 0.18
+        },
+        {
+          "min": 5000,
+          "max": 9999,
+          "discount": 0.25
+        },
+        {
+          "min": 10000,
+          "max": 99999,
+          "discount": 0.32
+        }
+      ],
+      "id": "taiwan",
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "region": "vietnam",
+      "labor_rate_per_unit": 0.13,
+      "tooling_base": 300,
+      "tooling_per_hardware_type": 65,
+      "shipping_rate_per_lb": 0.48,
+      "shipping_base": 175,
+      "lead_time_weeks_min": 8,
+      "lead_time_weeks_max": 10,
+      "moq": 1000,
+      "qty_breaks": [
+        {
+          "min": 1,
+          "max": 99,
+          "discount": 0
+        },
+        {
+          "min": 100,
+          "max": 249,
+          "discount": 0
+        },
+        {
+          "min": 250,
+          "max": 499,
+          "discount": 0.05
+        },
+        {
+          "min": 500,
+          "max": 999,
+          "discount": 0.1
+        },
+        {
+          "min": 1000,
+          "max": 4999,
+          "discount": 0.18
+        },
+        {
+          "min": 5000,
+          "max": 9999,
+          "discount": 0.25
+        },
+        {
+          "min": 10000,
+          "max": 99999,
+          "discount": 0.32
+        }
+      ],
+      "id": "vietnam",
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "region": "cambodia",
+      "labor_rate_per_unit": 0.12,
+      "tooling_base": 250,
+      "tooling_per_hardware_type": 55,
+      "shipping_rate_per_lb": 0.5,
+      "shipping_base": 200,
+      "lead_time_weeks_min": 8,
+      "lead_time_weeks_max": 10,
+      "moq": 1000,
+      "qty_breaks": [
+        {
+          "min": 1,
+          "max": 99,
+          "discount": 0
+        },
+        {
+          "min": 100,
+          "max": 249,
+          "discount": 0
+        },
+        {
+          "min": 250,
+          "max": 499,
+          "discount": 0.05
+        },
+        {
+          "min": 500,
+          "max": 999,
+          "discount": 0.1
+        },
+        {
+          "min": 1000,
+          "max": 4999,
+          "discount": 0.18
+        },
+        {
+          "min": 5000,
+          "max": 9999,
+          "discount": 0.25
+        },
+        {
+          "min": 10000,
+          "max": 99999,
+          "discount": 0.32
+        }
+      ],
+      "id": "cambodia",
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "region": "china",
+      "labor_rate_per_unit": 0.1,
+      "tooling_base": 150,
+      "tooling_per_hardware_type": 40,
+      "shipping_rate_per_lb": 0.42,
+      "shipping_base": 225,
+      "lead_time_weeks_min": 10,
+      "lead_time_weeks_max": 12,
+      "moq": 2000,
+      "qty_breaks": [
+        {
+          "min": 1,
+          "max": 99,
+          "discount": 0
+        },
+        {
+          "min": 100,
+          "max": 249,
+          "discount": 0
+        },
+        {
+          "min": 250,
+          "max": 499,
+          "discount": 0.05
+        },
+        {
+          "min": 500,
+          "max": 999,
+          "discount": 0.1
+        },
+        {
+          "min": 1000,
+          "max": 4999,
+          "discount": 0.18
+        },
+        {
+          "min": 5000,
+          "max": 9999,
+          "discount": 0.25
+        },
+        {
+          "min": 10000,
+          "max": 99999,
+          "discount": 0.32
+        }
+      ],
+      "id": "china",
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  ]
+}

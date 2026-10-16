@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40mm" height="27.05mm" viewBox="0 0 40 27.05">
+  <title>Magnetic buckle · 19.05 mm — schematic placeholder</title>
+  <rect id="body" x="3" y="1" width="34" height="25.05" rx="4" fill="#334155" stroke="#0f172a" stroke-width="1"/><circle id="button" cx="20.0" cy="13.525" r="8" fill="#64748b" stroke="#cbd5e1"/>
+  <path d="M 6 5 V 22.05 M 34 5 V 22.05" stroke="#e2e8f0" stroke-width="2"/>
+  <circle id="anchor-left" cx="0" cy="13.525" r="0.1" fill="none"/>
+  <circle id="anchor-right" cx="40" cy="13.525" r="0.1" fill="none"/>
+</svg>

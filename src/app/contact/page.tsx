@@ -28,7 +28,7 @@ export default function ContactPage() {
       <div className="text-center mb-12">
         <h1 className="text-3xl md:text-4xl font-bold mb-4">Contact Us</h1>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-          Have a question about your strap project? We're here to help.
+          Have a question about your strap project? We&apos;re here to help.
         </p>
       </div>
 
@@ -96,7 +96,7 @@ export default function ContactPage() {
           <CardHeader>
             <CardTitle>Send us a message</CardTitle>
             <CardDescription>
-              Fill out the form below and we'll get back to you as soon as possible.
+              Fill out the form below and we&apos;ll get back to you as soon as possible.
             </CardDescription>
           </CardHeader>
           <CardContent>

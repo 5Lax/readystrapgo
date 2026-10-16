@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70mm" height="46.1mm" viewBox="0 0 70 46.1">
+  <title>Metal side release · 38.1 mm — schematic placeholder</title>
+  <rect id="body" x="2" y="1" width="66" height="44.1" rx="4" fill="#475569" stroke="#0f172a"/>
+  <path d="M 35.0 1 V 45.1" stroke="#94a3b8"/>
+  <rect id="button" x="31.0" y="19.05" width="8" height="8" rx="2" fill="#94a3b8"/>
+  <path d="M 6 5 V 41.1 M 64 5 V 41.1" stroke="#e2e8f0" stroke-width="2"/>
+  <circle id="anchor-left" cx="0" cy="23.05" r="0.1" fill="none"/>
+  <circle id="anchor-right" cx="70" cy="23.05" r="0.1" fill="none"/>
+</svg>

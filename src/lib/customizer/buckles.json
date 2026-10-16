@@ -1,0 +1,128 @@
+[
+  {
+    "id": "BKL-SR-075",
+    "name": "Side release \u00b7 19.05 mm",
+    "widthMm": 19.05,
+    "svgUrl": "/customizer/buckles/BKL-SR-075.svg",
+    "anchors": {
+      "left": {
+        "x": 0,
+        "y": 13.525
+      },
+      "right": {
+        "x": 46,
+        "y": 13.525
+      }
+    },
+    "viewBox": [0, 0, 46, 27.05],
+    "recolorableIds": ["body", "button"]
+  },
+  {
+    "id": "BKL-SR-100",
+    "name": "Side release \u00b7 25.4 mm",
+    "widthMm": 25.4,
+    "svgUrl": "/customizer/buckles/BKL-SR-100.svg",
+    "anchors": {
+      "left": {
+        "x": 0,
+        "y": 16.7
+      },
+      "right": {
+        "x": 56,
+        "y": 16.7
+      }
+    },
+    "viewBox": [0, 0, 56, 33.4],
+    "recolorableIds": ["body", "button"]
+  },
+  {
+    "id": "BKL-CAM-100",
+    "name": "Cam buckle \u00b7 25.4 mm",
+    "widthMm": 25.4,
+    "svgUrl": "/customizer/buckles/BKL-CAM-100.svg",
+    "anchors": {
+      "left": {
+        "x": 0,
+        "y": 16.7
+      },
+      "right": {
+        "x": 44,
+        "y": 16.7
+      }
+    },
+    "viewBox": [0, 0, 44, 33.4],
+    "recolorableIds": ["body", "button"]
+  },
+  {
+    "id": "BKL-FID-075",
+    "name": "Magnetic buckle \u00b7 19.05 mm",
+    "widthMm": 19.05,
+    "svgUrl": "/customizer/buckles/BKL-FID-075.svg",
+    "anchors": {
+      "left": {
+        "x": 0,
+        "y": 13.525
+      },
+      "right": {
+        "x": 40,
+        "y": 13.525
+      }
+    },
+    "viewBox": [0, 0, 40, 27.05],
+    "recolorableIds": ["body", "button"]
+  },
+  {
+    "id": "BKL-CBR-150",
+    "name": "Metal side release \u00b7 38.1 mm",
+    "widthMm": 38.1,
+    "svgUrl": "/customizer/buckles/BKL-CBR-150.svg",
+    "anchors": {
+      "left": {
+        "x": 0,
+        "y": 23.05
+      },
+      "right": {
+        "x": 70,
+        "y": 23.05
+      }
+    },
+    "viewBox": [0, 0, 70, 46.1],
+    "recolorableIds": ["body", "button"]
+  },
+  {
+    "id": "BKL-DFX-100",
+    "name": "Low-profile side release \u00b7 25.4 mm",
+    "widthMm": 25.4,
+    "svgUrl": "/customizer/buckles/BKL-DFX-100.svg",
+    "anchors": {
+      "left": {
+        "x": 0,
+        "y": 16.7
+      },
+      "right": {
+        "x": 52,
+        "y": 16.7
+      }
+    },
+    "viewBox": [0, 0, 52, 33.4],
+    "recolorableIds": ["body", "button"]
+  },
+  {
+    "id": "BKL-BRK-075",
+    "name": "Breakaway \u00b7 19.05 mm",
+    "widthMm": 19.05,
+    "svgUrl": "/customizer/buckles/BKL-BRK-075.svg",
+    "anchors": {
+      "left": {
+        "x": 0,
+        "y": 13.525
+      },
+      "right": {
+        "x": 35,
+        "y": 13.525
+      }
+    },
+    "viewBox": [0, 0, 35, 27.05],
+    "recolorableIds": ["body", "button"]
+  }
+]

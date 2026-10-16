@@ -1,5 +1,6 @@
 "use server";
 
+import { quoteFromCatalog } from "@/lib/customizer/quote-engine";
 import { createClient } from "@/lib/supabase/server";
 
 // =====================================================
@@ -64,6 +65,7 @@ export interface QuoteConfig {
   plies: number;
   hardware: Array<{ id: string; qty: number }>;
   quantity: number;
+  finishing?: { ends: "sealed" | "folded" | "loops"; logo: "none" | "woven" };
 }
 
 export interface RegionQuote {
@@ -79,6 +81,8 @@ export interface RegionQuote {
     hardwareCost: number;
     laborCost: number;
     toolingCost: number;
+    finishingCost: number;
+    logoSetupCost: number;
     subtotal: number;
     volumeDiscount: number;
     shippingCost: number;
@@ -93,19 +97,6 @@ export interface QuoteResult {
   hardwareItems: Array<HardwareItem & { requestedQty: number }>;
   quotes: RegionQuote[];
 }
-
-// =====================================================
-// Region Labels
-// =====================================================
-
-const REGION_LABELS: Record<string, string> = {
-  usa: "USA (Domestic)",
-  mexico: "Mexico (Nearshore)",
-  taiwan: "Taiwan",
-  vietnam: "Vietnam",
-  cambodia: "Cambodia",
-  china: "China",
-};
 
 // =====================================================
 // Server Actions
@@ -201,6 +192,7 @@ export async function calculateQuote(
     .from("webbing_catalog")
     .select("*")
     .eq("id", config.webbingId)
+    .eq("active", true)
     .single();
 
   if (webbingError || !webbing) {
@@ -212,7 +204,8 @@ export async function calculateQuote(
   const { data: hardwareItems, error: hardwareError } = await supabase
     .from("hardware_catalog")
     .select("*")
-    .in("id", hardwareIds);
+    .in("id", hardwareIds)
+    .eq("active", true);
 
   if (hardwareError) {
     return { data: null, error: "Failed to fetch hardware: " + hardwareError.message };
@@ -227,120 +220,11 @@ export async function calculateQuote(
     return { data: null, error: "Failed to fetch pricing rules" };
   }
 
-  // Calculate quotes for each region
-  const quotes: RegionQuote[] = [];
-
-  for (const rule of pricingRules as PricingRule[]) {
-    const region = rule.region;
-    const meetsMinimum = config.quantity >= rule.moq;
-
-    // Get webbing price for this region
-    const webbingPricePerYard =
-      (webbing as WebbingItem).price_per_yard_by_region[region] || 0;
-
-    // Calculate webbing cost (convert inches to yards, multiply by plies)
-    const yardsNeeded = (config.lengthInches / 36) * config.plies;
-    const webbingCostPerUnit = yardsNeeded * webbingPricePerYard;
-    const webbingCost = webbingCostPerUnit * config.quantity;
-
-    // Calculate hardware cost
-    let hardwareCost = 0;
-    const hardwareWithQty: Array<HardwareItem & { requestedQty: number }> = [];
-    const uniqueHardwareTypes = new Set<string>();
-
-    for (const hw of config.hardware) {
-      const item = (hardwareItems as HardwareItem[])?.find((h) => h.id === hw.id);
-      if (item) {
-        hardwareWithQty.push({ ...item, requestedQty: hw.qty });
-        uniqueHardwareTypes.add(item.type || item.category);
-
-        // Get price tier for hardware based on total hardware qty
-        const totalHardwareQty = hw.qty * config.quantity;
-        const priceTiers = item.price_tiers;
-        const tierKeys = Object.keys(priceTiers)
-          .map(Number)
-          .sort((a, b) => b - a);
-
-        let unitPrice = priceTiers["1"] || 0;
-        for (const tier of tierKeys) {
-          if (totalHardwareQty >= tier) {
-            unitPrice = priceTiers[tier.toString()];
-            break;
-          }
-        }
-
-        hardwareCost += unitPrice * hw.qty * config.quantity;
-      }
-    }
-
-    // Calculate labor cost
-    const laborCost = rule.labor_rate_per_unit * config.quantity;
-
-    // Calculate tooling cost (one-time, amortized)
-    const toolingCost =
-      rule.tooling_base + rule.tooling_per_hardware_type * uniqueHardwareTypes.size;
-
-    // Calculate subtotal
-    const subtotal = webbingCost + hardwareCost + laborCost + toolingCost;
-
-    // Calculate volume discount
-    let discountRate = 0;
-    for (const tier of rule.qty_breaks) {
-      if (config.quantity >= tier.min && config.quantity <= tier.max) {
-        discountRate = tier.discount;
-        break;
-      }
-    }
-    const volumeDiscount = (webbingCost + hardwareCost + laborCost) * discountRate;
-
-    // Estimate shipping (rough estimate based on weight)
-    const estimatedWeightLbs =
-      (((webbing as WebbingItem).specs.weight_per_yard_oz * yardsNeeded) / 16) *
-      config.quantity;
-    const shippingCost =
-      rule.shipping_base + rule.shipping_rate_per_lb * Math.max(1, estimatedWeightLbs);
-
-    // Calculate total
-    const total = subtotal - volumeDiscount + shippingCost;
-    const perUnit = config.quantity > 0 ? total / config.quantity : 0;
-
-    quotes.push({
-      region,
-      regionLabel: REGION_LABELS[region] || region,
-      available: true,
-      meetsMinimum,
-      moq: rule.moq,
-      leadTimeMin: rule.lead_time_weeks_min,
-      leadTimeMax: rule.lead_time_weeks_max,
-      breakdown: {
-        webbingCost: Number(webbingCost.toFixed(2)),
-        hardwareCost: Number(hardwareCost.toFixed(2)),
-        laborCost: Number(laborCost.toFixed(2)),
-        toolingCost: Number(toolingCost.toFixed(2)),
-        subtotal: Number(subtotal.toFixed(2)),
-        volumeDiscount: Number(volumeDiscount.toFixed(2)),
-        shippingCost: Number(shippingCost.toFixed(2)),
-        total: Number(total.toFixed(2)),
-        perUnit: Number(perUnit.toFixed(2)),
-      },
-    });
+  try {
+    return { data: quoteFromCatalog(config, webbing as WebbingItem, (hardwareItems || []) as HardwareItem[], pricingRules as PricingRule[]), error: null };
+  } catch (error) {
+    return { data: null, error: error instanceof Error ? error.message : "Invalid quote configuration" };
   }
-
-  // Sort quotes by per-unit cost (cheapest first)
-  quotes.sort((a, b) => a.breakdown.perUnit - b.breakdown.perUnit);
-
-  return {
-    data: {
-      config,
-      webbing: webbing as WebbingItem,
-      hardwareItems: (hardwareItems as HardwareItem[])?.map((item) => ({
-        ...item,
-        requestedQty: config.hardware.find((h) => h.id === item.id)?.qty || 0,
-      })) || [],
-      quotes,
-    },
-    error: null,
-  };
 }
 
 /**

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56mm" height="33.4mm" viewBox="0 0 56 33.4">
+  <title>Side release · 25.4 mm — schematic placeholder</title>
+  <rect id="body" x="3" y="1" width="50" height="31.4" rx="4" fill="#334155" stroke="#0f172a" stroke-width="1"/><path d="M 28.0 1 V 32.4" stroke="#94a3b8" stroke-width="1.2"/><rect id="button" x="23.52" y="12.7" width="8.96" height="8" rx="2" fill="#64748b"/>
+  <path d="M 6 5 V 28.4 M 50 5 V 28.4" stroke="#e2e8f0" stroke-width="2"/>
+  <circle id="anchor-left" cx="0" cy="16.7" r="0.1" fill="none"/>
+  <circle id="anchor-right" cx="56" cy="16.7" r="0.1" fill="none"/>
+</svg>

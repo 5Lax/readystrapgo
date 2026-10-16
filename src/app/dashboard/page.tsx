@@ -142,7 +142,7 @@ export default async function DashboardPage() {
                           <span className="capitalize">
                             {quote.strap_specs.material}
                           </span>{" "}
-                          - {quote.strap_specs.length}" x {quote.strap_specs.width}"
+                          - {quote.strap_specs.length}&quot; x {quote.strap_specs.width}&quot;
                         </div>
                         <div className="text-xs text-muted-foreground capitalize">
                           {quote.strap_specs.color}

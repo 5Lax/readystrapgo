@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35mm" height="27.05mm" viewBox="0 0 35 27.05">
+  <title>Breakaway · 19.05 mm — schematic placeholder</title>
+  <rect id="body" x="2" y="1" width="31" height="25.05" rx="4" fill="#475569" stroke="#0f172a"/>
+  <path d="M 17.5 1 V 26.05" stroke="#94a3b8"/>
+  <rect id="button" x="13.5" y="9.525" width="8" height="8" rx="2" fill="#94a3b8"/>
+  <path d="M 6 5 V 22.05 M 29 5 V 22.05" stroke="#e2e8f0" stroke-width="2"/>
+  <circle id="anchor-left" cx="0" cy="13.525" r="0.1" fill="none"/>
+  <circle id="anchor-right" cx="35" cy="13.525" r="0.1" fill="none"/>
+</svg>
