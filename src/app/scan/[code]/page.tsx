@@ -18,7 +18,7 @@ export default async function ScanLandingPage({
 
   const { data: sample } = await supabase
     .from("scan_samples")
-    .select("*")
+    .select("id, scan_code, title, item_type, brand, status, photo_url, specs, project_name")
     .eq("scan_code", code)
     .single();
 

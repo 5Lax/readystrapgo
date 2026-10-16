@@ -5,7 +5,6 @@ import { createClient } from "@/lib/supabase/client";
 
 interface ScanSample {
   id: string;
-  sp_item_id: number;
   scan_code: string;
   title: string;
   item_type: string | null;
@@ -80,7 +79,7 @@ export default function ScanLandingClient({ sample, scanCount }: Props) {
     const supabase = createClient();
     const { data, error } = await supabase
       .from("scan_samples")
-      .select("*")
+      .select("id, scan_code, title, item_type, brand, status, photo_url, specs, project_name")
       .eq("scan_code", compareCode.trim().toUpperCase())
       .single();
 
@@ -623,16 +622,6 @@ export default function ScanLandingClient({ sample, scanCount }: Props) {
           </div>
         </div>
       )}
-
-      {/* A+ Employee Link */}
-      <div className="text-center mt-6">
-        <button
-          onClick={() => setMode("internal")}
-          className="text-sm text-blue-600 hover:text-blue-800 underline"
-        >
-          A+ Employee? Switch to Internal View
-        </button>
-      </div>
 
       {/* Footer */}
       <div className="text-center text-xs text-gray-400 mt-4">
