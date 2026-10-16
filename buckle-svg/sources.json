@@ -1,0 +1,172 @@
+{
+  "collection": "bags",
+  "products": [
+    "fidlock-v-buckle-25-with-pull-tab",
+    "fidlock-snap-buckle-15",
+    "fidlock-v-buckle-20-black-flap-with-pull-tab",
+    "v-buckle-25-sb-black-flap-with-pull-tab",
+    "fidlock-snap-buckle-flat-25",
+    "fidlock-snap-buckle-flat-40",
+    "aluminum-g-hook",
+    "aluminum-s-hook",
+    "aluminum-strap-keeper",
+    "fidlock-slider-25",
+    "winhigh-plastic-side-release-fox-buckle",
+    "winhigh-plastic-side-release-dual-adjust-xt-buckle",
+    "winhigh-plastic-side-release-bondi-buckle",
+    "plastic-center-release-buckle",
+    "520-double-bar-buckle",
+    "720-roller-buckle"
+  ],
+  "vectors": {
+    "fidlock-v-buckle-25-with-pull-tab": [
+      {
+        "source_type": "existing-svg",
+        "path": "input/vectors/FL-V-11201.svg",
+        "reference_path": "attached_assets/FL-V-11201_1760148428952.svg",
+        "original_source": "StrapBuilder/attached_assets/FL-V-11201_1760148428952.svg",
+        "width_mm": 25,
+        "reference_span": 68.58,
+        "anchors": [
+          [
+            31.685,
+            90.28
+          ],
+          [
+            185.575,
+            90.28
+          ]
+        ],
+        "parts": {
+          "0": "insert",
+          "2": "body",
+          "7": "button"
+        }
+      }
+    ],
+    "fidlock-snap-buckle-15": [
+      {
+        "source_type": "vector-kit",
+        "path": "../public/templates/downloads/SternLinkLite_Techpack_01.09.25_download.ai",
+        "source_url": "https://www.aplusproducts.net/products/15-mm-sternum-strap-design-tech-pack-with-fidlock-snap-buckle-15-digital-download-1",
+        "page": 1,
+        "crop": [
+          365,
+          422,
+          438,
+          471
+        ],
+        "width_mm": 15,
+        "reference_span": 24.192,
+        "anchors": [
+          [
+            381.5,
+            447.85
+          ],
+          [
+            427.16,
+            447.85
+          ]
+        ],
+        "parts": {
+          "0": "insert",
+          "3": "body",
+          "4": "button"
+        },
+        "fill_rule": "evenodd"
+      },
+      {
+        "source_type": "existing-svg",
+        "path": "input/vectors/FL-F7020.svg",
+        "reference_path": "attached_assets/FL-F7020_1760148194464.svg",
+        "original_source": "StrapBuilder/attached_assets/FL-F7020_1760148194464.svg",
+        "width_mm": 15,
+        "reference_span": 44,
+        "note": "Reference filename differs from the store SKU; prefer the explicitly labelled kit component."
+      }
+    ],
+    "fidlock-v-buckle-20-black-flap-with-pull-tab": [
+      {
+        "source_type": "vector-kit",
+        "path": "../public/templates/downloads/APLUSsternumstrap_techpackasset.ai",
+        "source_url": "https://www.aplusproducts.net/products/sternum-strap-design-tech-pack-with-fidlock-v-buckle-20",
+        "page": 1,
+        "crop": [
+          300,
+          265,
+          510,
+          367
+        ],
+        "sequence_numbers": [
+          100,
+          102,
+          104,
+          106,
+          108,
+          110,
+          112,
+          114,
+          116,
+          118,
+          120,
+          122,
+          124,
+          126,
+          128,
+          193
+        ],
+        "width_mm": 20,
+        "reference_span": 55.52,
+        "anchors": [
+          [
+            331,
+            316
+          ],
+          [
+            480,
+            316
+          ]
+        ],
+        "parts": {
+          "9": "body",
+          "10": "insert",
+          "15": "button"
+        },
+        "note": "Webbing and its texture excluded by reviewed PDF drawing sequence numbers.",
+        "fill_rule": "evenodd"
+      }
+    ],
+    "v-buckle-25-sb-black-flap-with-pull-tab": [
+      {
+        "source_type": "vector-kit",
+        "path": "../public/templates/downloads/FIDLOCKDogCollar_Techpack_02.25.25_.ai",
+        "source_url": "https://www.aplusproducts.net/products/fidlock-v-buckle-25-dog-collar-tech-pack-digital-vector-assets-download",
+        "page": 1,
+        "crop": [
+          658,
+          240,
+          765,
+          302
+        ],
+        "width_mm": 25,
+        "reference_span": 35.5,
+        "anchors": [
+          [
+            678,
+            271.6
+          ],
+          [
+            752,
+            271.6
+          ]
+        ],
+        "parts": {
+          "0": "insert",
+          "4": "body",
+          "8": "button"
+        },
+        "fill_rule": "evenodd"
+      }
+    ]
+  }
+}

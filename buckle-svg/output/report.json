@@ -1,0 +1,839 @@
+{
+  "counts": {
+    "vector-kit": 3,
+    "existing-svg": 1,
+    "cad": 0,
+    "photo-trace": 12
+  },
+  "products": [
+    {
+      "id": "fidlock-v-buckle-25-with-pull-tab",
+      "photo": "input/web/fidlock-v-buckle-25-with-pull-tab.png",
+      "metadata": {
+        "name": "V-BUCKLE 25 With Pull Tab",
+        "type": "Fidlock V-Buckle",
+        "width_mm": 25,
+        "width_evidence": "vector component specification",
+        "units": "mm",
+        "product_url": "https://www.aplusproducts.net/products/fidlock-v-buckle-25-with-pull-tab",
+        "photo_source": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/V-11201-V-BUCKLE-25_pull-tab-top_png.png?v=1642514491&width=800",
+        "iou": null,
+        "source_type": "existing-svg",
+        "source": "StrapBuilder/attached_assets/FL-V-11201_1760148428952.svg",
+        "source_url": null,
+        "source_sha256": "9ddba553568b891951f64ff179e316e6c4dd70f8c47dfdf0719feefa8d505a60",
+        "note": "",
+        "vector_recipe": {
+          "source_type": "existing-svg",
+          "path": "input/vectors/FL-V-11201.svg",
+          "reference_path": "attached_assets/FL-V-11201_1760148428952.svg",
+          "original_source": "StrapBuilder/attached_assets/FL-V-11201_1760148428952.svg",
+          "width_mm": 25,
+          "reference_span": 68.58,
+          "anchors": [
+            [
+              31.685,
+              90.28
+            ],
+            [
+              185.575,
+              90.28
+            ]
+          ],
+          "parts": {
+            "0": "insert",
+            "2": "body",
+            "7": "button"
+          }
+        },
+        "anchor_method": "reviewed vector slot centers in source coordinates",
+        "scale_method": "Nominal width calibrated to vector slot span; exact source curves, illustrative dimensions.",
+        "reference_span": 68.58,
+        "source_bounds": [
+          5.67,
+          43.470000000000006,
+          204.66000000000003,
+          93.69000000000001
+        ],
+        "source_to_output_scale": 0.3645377661125693,
+        "anchors": {
+          "anchor-left": [
+            10.08345,
+            17.664013
+          ],
+          "anchor-right": [
+            66.182167,
+            17.664013
+          ]
+        },
+        "viewbox": [
+          0,
+          0,
+          75.806299,
+          35.353543
+        ]
+      }
+    },
+    {
+      "id": "fidlock-snap-buckle-15",
+      "photo": "input/web/fidlock-snap-buckle-15.png",
+      "metadata": {
+        "name": "SNAP Buckle 15",
+        "type": "Fidlock Snap",
+        "width_mm": 15,
+        "width_evidence": "vector component specification",
+        "units": "mm",
+        "product_url": "https://www.aplusproducts.net/products/fidlock-snap-buckle-15",
+        "photo_source": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/F6020-SNAP-buckle-15-F_M-perspective_png.png?v=1642429476&width=800",
+        "iou": null,
+        "source_type": "vector-kit",
+        "source": "../public/templates/downloads/SternLinkLite_Techpack_01.09.25_download.ai",
+        "source_url": "https://www.aplusproducts.net/products/15-mm-sternum-strap-design-tech-pack-with-fidlock-snap-buckle-15-digital-download-1",
+        "source_sha256": "b1a9d660f9d9c97627aa187ef5b8fbe6c9703ca6727c1ffef790934455f10fa9",
+        "note": "",
+        "vector_recipe": {
+          "source_type": "vector-kit",
+          "path": "../public/templates/downloads/SternLinkLite_Techpack_01.09.25_download.ai",
+          "source_url": "https://www.aplusproducts.net/products/15-mm-sternum-strap-design-tech-pack-with-fidlock-snap-buckle-15-digital-download-1",
+          "page": 1,
+          "crop": [
+            365,
+            422,
+            438,
+            471
+          ],
+          "width_mm": 15,
+          "reference_span": 24.192,
+          "anchors": [
+            [
+              381.5,
+              447.85
+            ],
+            [
+              427.16,
+              447.85
+            ]
+          ],
+          "parts": {
+            "0": "insert",
+            "3": "body",
+            "4": "button"
+          },
+          "fill_rule": "evenodd"
+        },
+        "anchor_method": "reviewed vector slot centers in source coordinates",
+        "scale_method": "Nominal width calibrated to vector slot span; exact source curves, illustrative dimensions.",
+        "reference_span": 24.192,
+        "source_bounds": [
+          367.783125,
+          424.64625,
+          68.16375,
+          44.758125
+        ],
+        "source_to_output_scale": 0.6200396825396826,
+        "anchors": {
+          "anchor-left": [
+            9.105007,
+            14.987246
+          ],
+          "anchor-right": [
+            37.416019,
+            14.987246
+          ]
+        },
+        "viewbox": [
+          0,
+          0,
+          43.46423,
+          28.951814
+        ]
+      }
+    },
+    {
+      "id": "fidlock-v-buckle-20-black-flap-with-pull-tab",
+      "photo": "input/web/fidlock-v-buckle-20-black-flap-with-pull-tab.png",
+      "metadata": {
+        "name": "V-BUCKLE 20 Black Flap With Pull Tab",
+        "type": "Fidlock V-Buckle",
+        "width_mm": 20,
+        "width_evidence": "vector component specification",
+        "units": "mm",
+        "product_url": "https://www.aplusproducts.net/products/fidlock-v-buckle-20-black-flap-with-pull-tab",
+        "photo_source": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/V-14410-V-buckle-20-black-flap-_-pulltab-perspective_png.png?v=1642505115&width=800",
+        "iou": null,
+        "source_type": "vector-kit",
+        "source": "../public/templates/downloads/APLUSsternumstrap_techpackasset.ai",
+        "source_url": "https://www.aplusproducts.net/products/sternum-strap-design-tech-pack-with-fidlock-v-buckle-20",
+        "source_sha256": "2c3c545d2248bc0f62271df57d1381a6306d46dcc7248f6c97ed7d87986ca3b1",
+        "note": "Webbing and its texture excluded by reviewed PDF drawing sequence numbers.",
+        "vector_recipe": {
+          "source_type": "vector-kit",
+          "path": "../public/templates/downloads/APLUSsternumstrap_techpackasset.ai",
+          "source_url": "https://www.aplusproducts.net/products/sternum-strap-design-tech-pack-with-fidlock-v-buckle-20",
+          "page": 1,
+          "crop": [
+            300,
+            265,
+            510,
+            367
+          ],
+          "sequence_numbers": [
+            100,
+            102,
+            104,
+            106,
+            108,
+            110,
+            112,
+            114,
+            116,
+            118,
+            120,
+            122,
+            124,
+            126,
+            128,
+            193
+          ],
+          "width_mm": 20,
+          "reference_span": 55.52,
+          "anchors": [
+            [
+              331,
+              316
+            ],
+            [
+              480,
+              316
+            ]
+          ],
+          "parts": {
+            "9": "body",
+            "10": "insert",
+            "15": "button"
+          },
+          "note": "Webbing and its texture excluded by reviewed PDF drawing sequence numbers.",
+          "fill_rule": "evenodd"
+        },
+        "anchor_method": "reviewed vector slot centers in source coordinates",
+        "scale_method": "Nominal width calibrated to vector slot span; exact source curves, illustrative dimensions.",
+        "reference_span": 55.52,
+        "source_bounds": [
+          301.96875,
+          267.23125,
+          206.0625,
+          97.51875
+        ],
+        "source_to_output_scale": 0.36023054755043227,
+        "anchors": {
+          "anchor-left": [
+            11.057943,
+            18.167994
+          ],
+          "anchor-right": [
+            64.732295,
+            18.167994
+          ]
+        },
+        "viewbox": [
+          0,
+          0,
+          75.430007,
+          36.329233
+        ]
+      }
+    },
+    {
+      "id": "v-buckle-25-sb-black-flap-with-pull-tab",
+      "photo": "input/web/v-buckle-25-sb-black-flap-with-pull-tab.png",
+      "metadata": {
+        "name": "V-BUCKLE 25 SB Black Flap with Pull Tab",
+        "type": "Fidlock V-Buckle",
+        "width_mm": 25,
+        "width_evidence": "vector component specification",
+        "units": "mm",
+        "product_url": "https://www.aplusproducts.net/products/v-buckle-25-sb-black-flap-with-pull-tab",
+        "photo_source": "https://cdn.shopify.com/s/files/1/0582/0406/1873/files/FV-15401-V-BUCKLE-25-SB-black-flap_pull-tab-perspective.png?v=1686859349&width=800",
+        "iou": null,
+        "source_type": "vector-kit",
+        "source": "../public/templates/downloads/FIDLOCKDogCollar_Techpack_02.25.25_.ai",
+        "source_url": "https://www.aplusproducts.net/products/fidlock-v-buckle-25-dog-collar-tech-pack-digital-vector-assets-download",
+        "source_sha256": "4f88f799b10235ca7d128e0b750dd39ffc37fca31faa8dd19ffb86e4a51ce270",
+        "note": "",
+        "vector_recipe": {
+          "source_type": "vector-kit",
+          "path": "../public/templates/downloads/FIDLOCKDogCollar_Techpack_02.25.25_.ai",
+          "source_url": "https://www.aplusproducts.net/products/fidlock-v-buckle-25-dog-collar-tech-pack-digital-vector-assets-download",
+          "page": 1,
+          "crop": [
+            658,
+            240,
+            765,
+            302
+          ],
+          "width_mm": 25,
+          "reference_span": 35.5,
+          "anchors": [
+            [
+              678,
+              271.6
+            ],
+            [
+              752,
+              271.6
+            ]
+          ],
+          "parts": {
+            "0": "insert",
+            "4": "body",
+            "8": "button"
+          },
+          "fill_rule": "evenodd"
+        },
+        "anchor_method": "reviewed vector slot centers in source coordinates",
+        "scale_method": "Nominal width calibrated to vector slot span; exact source curves, illustrative dimensions.",
+        "reference_span": 35.5,
+        "source_bounds": [
+          663.283125,
+          246.888125,
+          98.23937500000001,
+          49.554375
+        ],
+        "source_to_output_scale": 0.704225352112676,
+        "anchors": {
+          "anchor-left": [
+            10.963996,
+            18.002729
+          ],
+          "anchor-right": [
+            63.076673,
+            18.002729
+          ]
+        },
+        "viewbox": [
+          0,
+          0,
+          70.382658,
+          36.097447
+        ]
+      }
+    },
+    {
+      "id": "fidlock-snap-buckle-flat-25",
+      "photo": "input/web/fidlock-snap-buckle-flat-25.png",
+      "metadata": {
+        "name": "SNAP Buckle Flat 25",
+        "type": "Fidlock Snap",
+        "width_mm": 25.0,
+        "width_evidence": "nominal strap width in product family title",
+        "units": "mm",
+        "product_url": "https://www.aplusproducts.net/products/fidlock-snap-buckle-flat-25",
+        "photo_source": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/F8040-SNAP-buckle-flat-25-perspective_png.png?v=1642430800&width=800",
+        "iou": 0.99034,
+        "source_type": "photo-trace",
+        "source": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/F8040-SNAP-buckle-flat-25-perspective_png.png?v=1642430800&width=800",
+        "source_sha256": "dc9604a5dc61aa7de28ccdc25196df038bf81d182dc1ba4738d0495f3dc63e4a",
+        "anchor_method": "estimated: silhouette ends; no pair of enclosed slots detected",
+        "scale_method": "Estimated projected scale from longest enclosed strap slot; perspective is retained.",
+        "reference_span": 182.38192749023438,
+        "source_bounds": [
+          66.0,
+          119.0,
+          512.0,
+          409.0
+        ],
+        "source_to_output_scale": 0.1370749851371026,
+        "anchors": {
+          "anchor-left": [
+            6.214591,
+            28.631834
+          ],
+          "anchor-right": [
+            65.167801,
+            28.631834
+          ]
+        },
+        "viewbox": [
+          0,
+          0,
+          71.382392,
+          57.263669
+        ]
+      }
+    },
+    {
+      "id": "fidlock-snap-buckle-flat-40",
+      "photo": "input/web/fidlock-snap-buckle-flat-40.png",
+      "metadata": {
+        "name": "SNAP Buckle Flat 40",
+        "type": "Fidlock Snap",
+        "width_mm": 40.0,
+        "width_evidence": "nominal strap width in product family title",
+        "units": "mm",
+        "product_url": "https://www.aplusproducts.net/products/fidlock-snap-buckle-flat-40",
+        "photo_source": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/F8022-SNAP-buckle-flat-40-perspective_png.png?v=1642431789&width=800",
+        "iou": 0.99282,
+        "source_type": "photo-trace",
+        "source": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/F8022-SNAP-buckle-flat-40-perspective_png.png?v=1642431789&width=800",
+        "source_sha256": "b56d34732956d13f519938ae967a1a56bf8301ad7fbf68faf1b45272de0dd4f0",
+        "anchor_method": "estimated: silhouette ends; no pair of enclosed slots detected",
+        "scale_method": "Estimated projected scale from longest enclosed strap slot; perspective is retained.",
+        "reference_span": 297.7578430175781,
+        "source_bounds": [
+          58.0,
+          147.0,
+          664.0,
+          494.0
+        ],
+        "source_to_output_scale": 0.13433735143506734,
+        "anchors": {
+          "anchor-left": [
+            7.736,
+            33.781326
+          ],
+          "anchor-right": [
+            82.664001,
+            33.781326
+          ]
+        },
+        "viewbox": [
+          0,
+          0,
+          90.400001,
+          67.562652
+        ]
+      }
+    },
+    {
+      "id": "aluminum-g-hook",
+      "photo": "input/web/aluminum-g-hook.png",
+      "metadata": {
+        "name": "Aluminum G-hook 1\"",
+        "type": "Metal Hook",
+        "width_mm": 25.4,
+        "width_evidence": "product title",
+        "units": "mm",
+        "product_url": "https://www.aplusproducts.net/products/aluminum-g-hook",
+        "photo_source": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/Black-Iso_c344e6d2-6383-4fff-9c33-04abda5dfa88.png?v=1642167778&width=800",
+        "iou": 0.978572,
+        "source_type": "photo-trace",
+        "source": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/Black-Iso_c344e6d2-6383-4fff-9c33-04abda5dfa88.png?v=1642167778&width=800",
+        "source_sha256": "1294af62eb551c8a5202baf83597a57b97eff99a83871c79de5bf57b4a746703",
+        "anchor_method": "estimated: silhouette ends; no pair of enclosed slots detected",
+        "scale_method": "Estimated projected scale from longest enclosed strap slot; perspective is retained.",
+        "reference_span": 209.39437866210938,
+        "source_bounds": [
+          218.0,
+          160.0,
+          364.0,
+          281.0
+        ],
+        "source_to_output_scale": 0.12130220573393174,
+        "anchors": {
+          "anchor-left": [
+            4.13232,
+            17.64296
+          ],
+          "anchor-right": [
+            41.221683,
+            17.64296
+          ]
+        },
+        "viewbox": [
+          0,
+          0,
+          45.354003,
+          35.28592
+        ]
+      }
+    },
+    {
+      "id": "aluminum-s-hook",
+      "photo": "input/web/aluminum-s-hook.png",
+      "metadata": {
+        "name": "Aluminum S-hook 1\"",
+        "type": "Metal Hook",
+        "width_mm": 25.4,
+        "width_evidence": "product title",
+        "units": "mm",
+        "product_url": "https://www.aplusproducts.net/products/aluminum-s-hook",
+        "photo_source": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/Black-Iso_84827fbc-22e1-4c6a-b65c-ec4ab1da01d6.png?v=1639588455&width=800",
+        "iou": 0.96602,
+        "source_type": "photo-trace",
+        "source": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/Black-Iso_84827fbc-22e1-4c6a-b65c-ec4ab1da01d6.png?v=1639588455&width=800",
+        "source_sha256": "8031b6ea6568ced0fb0b36fd3649dc9a78158bb40c301ba7c98bea6d51922421",
+        "anchor_method": "estimated: silhouette ends; no pair of enclosed slots detected",
+        "scale_method": "Estimated scale: nominal width assigned to silhouette short dimension; no slot calibration found.",
+        "reference_span": 221.0,
+        "source_bounds": [
+          256.0,
+          190.0,
+          288.0,
+          221.0
+        ],
+        "source_to_output_scale": 0.11493212669683257,
+        "anchors": {
+          "anchor-left": [
+            3.248036,
+            13.3
+          ],
+          "anchor-right": [
+            31.052416,
+            13.3
+          ]
+        },
+        "viewbox": [
+          0,
+          0,
+          34.300452,
+          26.6
+        ]
+      }
+    },
+    {
+      "id": "aluminum-strap-keeper",
+      "photo": "input/web/aluminum-strap-keeper.png",
+      "metadata": {
+        "name": "Aluminum Strap Keeper 1\"",
+        "type": "Metal Loop",
+        "width_mm": 25.4,
+        "width_evidence": "product title",
+        "units": "mm",
+        "product_url": "https://www.aplusproducts.net/products/aluminum-strap-keeper",
+        "photo_source": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/Black-Iso_fe73f095-4c50-4da5-a5d7-9a1b795e91d5.png?v=1639588608&width=800",
+        "iou": 0.967674,
+        "source_type": "photo-trace",
+        "source": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/Black-Iso_fe73f095-4c50-4da5-a5d7-9a1b795e91d5.png?v=1639588608&width=800",
+        "source_sha256": "53de06b139e0c439af66e775f667fe489f2705b350973208c93e663940fed9b5",
+        "anchor_method": "estimated: silhouette ends; no pair of enclosed slots detected",
+        "scale_method": "Estimated scale: nominal width assigned to silhouette short dimension; no slot calibration found.",
+        "reference_span": 205.0,
+        "source_bounds": [
+          258.0,
+          198.0,
+          286.0,
+          205.0
+        ],
+        "source_to_output_scale": 0.12390243902439024,
+        "anchors": {
+          "anchor-left": [
+            3.434888,
+            13.3
+          ],
+          "anchor-right": [
+            33.20121,
+            13.3
+          ]
+        },
+        "viewbox": [
+          0,
+          0,
+          36.636098,
+          26.6
+        ]
+      }
+    },
+    {
+      "id": "fidlock-slider-25",
+      "photo": "input/web/fidlock-slider-25.png",
+      "metadata": {
+        "name": "SLIDER 25",
+        "type": "Fidlock Slider",
+        "width_mm": 25.0,
+        "width_evidence": "nominal strap width in product family title",
+        "units": "mm",
+        "product_url": "https://www.aplusproducts.net/products/fidlock-slider-25",
+        "photo_source": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/04010-SLIDER-25-perspective_png.png?v=1642428264&width=800",
+        "iou": 0.991027,
+        "source_type": "photo-trace",
+        "source": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/04010-SLIDER-25-perspective_png.png?v=1642428264&width=800",
+        "source_sha256": "308d849b671054f644ceb8f94a4fa1d3ed263b77904e3e4ce46e9f27fbde65b1",
+        "anchor_method": "estimated: silhouette ends; no pair of enclosed slots detected",
+        "scale_method": "Estimated scale: nominal width assigned to silhouette short dimension; no slot calibration found.",
+        "reference_span": 344.0,
+        "source_bounds": [
+          146.0,
+          258.0,
+          423.0,
+          344.0
+        ],
+        "source_to_output_scale": 0.07267441860465117,
+        "anchors": {
+          "anchor-left": [
+            3.059302,
+            13.1
+          ],
+          "anchor-right": [
+            28.881977,
+            13.1
+          ]
+        },
+        "viewbox": [
+          0,
+          0,
+          31.941279,
+          26.2
+        ]
+      }
+    },
+    {
+      "id": "winhigh-plastic-side-release-fox-buckle",
+      "photo": "input/web/winhigh-plastic-side-release-fox-buckle.png",
+      "metadata": {
+        "name": "Fox Side Release Buckle",
+        "type": "Plastic Buckle",
+        "width_mm": null,
+        "width_evidence": "unknown or multiple sizes; supply an override for the pictured variant",
+        "units": "px",
+        "product_url": "https://www.aplusproducts.net/products/winhigh-plastic-side-release-fox-buckle",
+        "photo_source": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/1-Inch-Iso_c4472451-cec1-4ef4-a5f7-6fe2caef2c1a.png?v=1639590399&width=800",
+        "iou": 0.985025,
+        "source_type": "photo-trace",
+        "source": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/1-Inch-Iso_c4472451-cec1-4ef4-a5f7-6fe2caef2c1a.png?v=1639590399&width=800",
+        "source_sha256": "223c61a63715612e675f806002fbff6c6b188f18a7c83d226fe767c25908804a",
+        "anchor_method": "estimated: extreme enclosed openings; review attachment positions",
+        "scale_method": "Unknown width: source coordinate units retained as pixels.",
+        "reference_span": 130.4845428466797,
+        "source_bounds": [
+          194.0,
+          156.0,
+          413.0,
+          290.0
+        ],
+        "source_to_output_scale": 1,
+        "anchors": {
+          "anchor-left": [
+            88.143387,
+            197.929845
+          ],
+          "anchor-right": [
+            281.992223,
+            89.130974
+          ]
+        },
+        "viewbox": [
+          0,
+          0,
+          421.0,
+          298.0
+        ]
+      }
+    },
+    {
+      "id": "winhigh-plastic-side-release-dual-adjust-xt-buckle",
+      "photo": "input/web/winhigh-plastic-side-release-dual-adjust-xt-buckle.png",
+      "metadata": {
+        "name": "XT Dual Adjust Side Release Buckle",
+        "type": "Plastic Buckle",
+        "width_mm": null,
+        "width_evidence": "unknown or multiple sizes; supply an override for the pictured variant",
+        "units": "px",
+        "product_url": "https://www.aplusproducts.net/products/winhigh-plastic-side-release-dual-adjust-xt-buckle",
+        "photo_source": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/1-Inch-Iso_84f89c29-0670-426f-8b5f-bd250a4079d9.png?v=1639592646&width=800",
+        "iou": 0.984695,
+        "source_type": "photo-trace",
+        "source": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/1-Inch-Iso_84f89c29-0670-426f-8b5f-bd250a4079d9.png?v=1639592646&width=800",
+        "source_sha256": "12bb0a4e71d0988bb7e12a892110507400a8850f8d570cce2b3fb04f6eee675b",
+        "anchor_method": "estimated: extreme enclosed openings; review attachment positions",
+        "scale_method": "Unknown width: source coordinate units retained as pixels.",
+        "reference_span": 90.81179809570312,
+        "source_bounds": [
+          211.0,
+          169.0,
+          378.0,
+          263.0
+        ],
+        "source_to_output_scale": 1,
+        "anchors": {
+          "anchor-left": [
+            75.371091,
+            190.605397
+          ],
+          "anchor-right": [
+            288.03298,
+            81.485669
+          ]
+        },
+        "viewbox": [
+          0,
+          0,
+          386.0,
+          271.0
+        ]
+      }
+    },
+    {
+      "id": "winhigh-plastic-side-release-bondi-buckle",
+      "photo": "input/web/winhigh-plastic-side-release-bondi-buckle.png",
+      "metadata": {
+        "name": "Bondi Side Release Buckle",
+        "type": "Plastic Buckle",
+        "width_mm": null,
+        "width_evidence": "unknown or multiple sizes; supply an override for the pictured variant",
+        "units": "px",
+        "product_url": "https://www.aplusproducts.net/products/winhigh-plastic-side-release-bondi-buckle",
+        "photo_source": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/1-Inch-Iso_b01c0772-d91f-490c-907c-3d568716eb3b.png?v=1639589331&width=800",
+        "iou": 0.989616,
+        "source_type": "photo-trace",
+        "source": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/1-Inch-Iso_b01c0772-d91f-490c-907c-3d568716eb3b.png?v=1639589331&width=800",
+        "source_sha256": "0d4f5787d5782c0d2e208f7dc86e2efe0369de9201de1930d46a1275390dae82",
+        "anchor_method": "estimated: extreme enclosed openings; review attachment positions",
+        "scale_method": "Unknown width: source coordinate units retained as pixels.",
+        "reference_span": 123.20201110839844,
+        "source_bounds": [
+          168.0,
+          136.0,
+          464.0,
+          330.0
+        ],
+        "source_to_output_scale": 1,
+        "anchors": {
+          "anchor-left": [
+            112.93764,
+            237.821641
+          ],
+          "anchor-right": [
+            341.354436,
+            98.510982
+          ]
+        },
+        "viewbox": [
+          0,
+          0,
+          472.0,
+          338.0
+        ]
+      }
+    },
+    {
+      "id": "plastic-center-release-buckle",
+      "photo": "input/web/plastic-center-release-buckle.png",
+      "metadata": {
+        "name": "051 Plastic Center Release Buckle",
+        "type": "Plastic Buckle",
+        "width_mm": null,
+        "width_evidence": "unknown or multiple sizes; supply an override for the pictured variant",
+        "units": "px",
+        "product_url": "https://www.aplusproducts.net/products/plastic-center-release-buckle",
+        "photo_source": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/5-8-Inch-Iso_a0b0cae7-ab7e-4d85-a8fb-09985de1fbbd.png?v=1647887772&width=800",
+        "iou": 0.985207,
+        "source_type": "photo-trace",
+        "source": "https://cdn.shopify.com/s/files/1/0582/0406/1873/products/5-8-Inch-Iso_a0b0cae7-ab7e-4d85-a8fb-09985de1fbbd.png?v=1647887772&width=800",
+        "source_sha256": "d2d3e28321bfec01ae8e29b65c3980e8e072f44024326c6b81c19b5ce04f8755",
+        "anchor_method": "estimated: silhouette ends; no pair of enclosed slots detected",
+        "scale_method": "Unknown width: source coordinate units retained as pixels.",
+        "reference_span": 137.73304748535156,
+        "source_bounds": [
+          250.0,
+          185.0,
+          300.0,
+          231.0
+        ],
+        "source_to_output_scale": 1,
+        "anchors": {
+          "anchor-left": [
+            28.0,
+            119.5
+          ],
+          "anchor-right": [
+            280.0,
+            119.5
+          ]
+        },
+        "viewbox": [
+          0,
+          0,
+          308.0,
+          239.0
+        ]
+      }
+    },
+    {
+      "id": "520-double-bar-buckle",
+      "photo": "input/web/520-double-bar-buckle.png",
+      "metadata": {
+        "name": "1\" Metal Double Bar Buckle",
+        "type": "Metal Buckle",
+        "width_mm": 25.4,
+        "width_evidence": "product title",
+        "units": "mm",
+        "product_url": "https://www.aplusproducts.net/products/520-double-bar-buckle",
+        "photo_source": "https://cdn.shopify.com/s/files/1/0582/0406/1873/files/AL-520-16NP_closed.png?v=1699634986&width=800",
+        "iou": 0.953152,
+        "source_type": "photo-trace",
+        "source": "https://cdn.shopify.com/s/files/1/0582/0406/1873/files/AL-520-16NP_closed.png?v=1699634986&width=800",
+        "source_sha256": "5b662439f85b37edfa445b6f812de496e7e1323c02a22910e7e142c5d31c774f",
+        "anchor_method": "estimated: extreme enclosed openings; review attachment positions",
+        "scale_method": "Estimated projected scale from longest enclosed strap slot; perspective is retained.",
+        "reference_span": 117.48147583007812,
+        "source_bounds": [
+          261.0,
+          174.0,
+          277.0,
+          260.0
+        ],
+        "source_to_output_scale": 0.21620429791619095,
+        "anchors": {
+          "anchor-left": [
+            19.952967,
+            18.127472
+          ],
+          "anchor-right": [
+            43.952156,
+            30.553889
+          ]
+        },
+        "viewbox": [
+          0,
+          0,
+          61.088591,
+          57.413117
+        ]
+      }
+    },
+    {
+      "id": "720-roller-buckle",
+      "photo": "input/web/720-roller-buckle.png",
+      "metadata": {
+        "name": "1 1/2\" Metal Roller Buckle",
+        "type": "Metal Buckle",
+        "width_mm": 38.1,
+        "width_evidence": "product title",
+        "units": "mm",
+        "product_url": "https://www.aplusproducts.net/products/720-roller-buckle",
+        "photo_source": "https://cdn.shopify.com/s/files/1/0582/0406/1873/files/AL-720-24BN_closed.png?v=1699635449&width=800",
+        "iou": 0.960962,
+        "source_type": "photo-trace",
+        "source": "https://cdn.shopify.com/s/files/1/0582/0406/1873/files/AL-720-24BN_closed.png?v=1699635449&width=800",
+        "source_sha256": "d411dec600889174ec5cd02a2a522a89c5afaf5a96aa118259f0181c7a345373",
+        "anchor_method": "estimated: extreme enclosed openings; review attachment positions",
+        "scale_method": "Estimated scale: nominal width assigned to silhouette short dimension; no slot calibration found.",
+        "reference_span": 230.0,
+        "source_bounds": [
+          276.0,
+          187.0,
+          246.0,
+          230.0
+        ],
+        "source_to_output_scale": 0.1656521739130435,
+        "anchors": {
+          "anchor-left": [
+            13.795931,
+            23.613883
+          ],
+          "anchor-right": [
+            26.132237,
+            12.652099
+          ]
+        },
+        "viewbox": [
+          0,
+          0,
+          41.950435,
+          39.3
+        ]
+      }
+    }
+  ],
+  "failures": []
+}
